@@ -63,14 +63,11 @@ export default function About() {
           />
 
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
-            <div
-              className="col-span-4 flex flex-col items-start justify-start xl:col-span-4 md:order-2 
-            md:col-span-8"
-            >
+            <div className="flex flex-col items-start justify-start col-span-4 xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-2xl font-bold capitalize text-dark/75 dark:text-light/75">
                 Unlocking the Power of Gatsby v5+ & NetlifyCMS with Clay Theme.
               </h2>
-              <h3 className="mb-4 text-lg font-bold  text-lightGreen dark:text-primaryDark">
+              <h3 className="mb-4 text-lg font-bold text-lightGreen dark:text-primaryDark">
                 Content | Web Design | UX/UI | Development
               </h3>
               <div classNname="w-full border-2 border-solid border-light bg-light"></div>
@@ -82,7 +79,7 @@ export default function About() {
                 and efficient solution for content management in the realm of
                 web development.
               </p>
-              <h4 className="mt-4 text-lg font-800 capitalize text-dark/75 dark:text-light/75">
+              <h4 className="mt-4 text-lg capitalize font-800 text-dark/75 dark:text-light/75">
                 Unleashing the Power of Gatsby Framework
               </h4>
               <p className="my-4">
@@ -95,14 +92,9 @@ export default function About() {
                 performance.
               </p>
 
-              <div className="mt-2 flex items-center grid-cols-8 gap-4 sm:gap-8">
+              <div className="flex items-center grid-cols-8 gap-4 mt-2 sm:gap-8">
                 <Link
-                  className="rounded-lg
-             bg-dark p-2 px-6 text-lg font-semibold
-             sm:px-4 sm:text-base rounded-lg border-2 border-solid bg-dark
-            capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
-            dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
-            md:p-2 md:px-4 md:text-base"
+                  className="p-2 px-6 text-lg font-semibold capitalize border-2 border-solid rounded-lg bg-dark sm:px-4 sm:text-base text-light hover:border-dark hover:bg-transparent hover:text-dark dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light md:p-2 md:px-4 md:text-base"
                   aria-label="Visit Theme Demo"
                   href="https://clay-theme.netlify.app"
                   target={"_blank"}
@@ -127,19 +119,14 @@ export default function About() {
                 </Link>
               </div>
             </div>
-            <div
-              className="relative col-span-4 h-max rounded-2xl border-2 border-solid border-dark 
-            bg-light p-8 dark:border-light dark:bg-dark
-            xl:col-span-4 md:col-span-8 md:order-1
-            "
-            >
+            <div className="relative col-span-4 p-8 border-2 border-solid h-max rounded-2xl border-dark bg-light dark:border-light dark:bg-dark xl:col-span-4 md:col-span-8 md:order-1 ">
               <div
                 className="absolute  top-0 -right-3 -z-10 h-[103%] w-[102%]  rounded-[2rem] rounded-br-3xl 
                 bg-dark
         dark:bg-light  "
               />
               <Image
-                className="h-auto w-full rounded-2xl"
+                className="w-full h-auto rounded-2xl"
                 src={proj1}
                 alt="Clay Gatsby Theme"
                 sizes="(max-width: 768px) 100vw,

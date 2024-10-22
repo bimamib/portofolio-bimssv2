@@ -4,16 +4,12 @@ import Layout from "./Layout";
 
 const Footer = () => {
   return (
-    <footer
-      className="w-full border-t-0 border-solid border-dark
-    font-base text-lg dark:text-light dark:border-light sm:text-base
-    "
-    >
-      <Layout className="py-8 flex items-center justify-center lg:flex-col lg:py-6">
+    <footer className="w-full text-lg border-t-0 border-solid border-dark font-base dark:text-light dark:border-light sm:text-base ">
+      <Layout className="flex items-center justify-center py-8 lg:flex-col lg:py-6">
         <span>&copy; {new Date().getFullYear()}</span>
 
-        <div className="flex items-center lg:py-2 ml-2">
-          Built <span className="text-2xl px-1"></span>
+        {/* <div className="flex items-center ml-2 lg:py-2">
+          Built <span className="px-1 text-2xl"></span>
           {""}
           by&nbsp;
           <Link
@@ -22,7 +18,7 @@ const Footer = () => {
           >
             Travis Lord
           </Link>
-        </div>
+        </div> */}
       </Layout>
     </footer>
   );

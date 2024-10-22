@@ -23,8 +23,8 @@ export default function Home() {
         className={`flex min-h-screen items-center text-dark dark:text-light sm:items-start`}
       >
         <Layout className="!pt-24 md:!pt-16 sm:!pt-28">
-          <div className="flex w-full items-start justify-between md:flex-col pt-10 pb-24">
-            <div className="w-1/2 lg:hidden md:flex flex self-center max-h-fit">
+          <div className="flex items-start justify-between w-full pt-10 pb-24 md:flex-col">
+            <div className="flex self-center w-1/2 lg:hidden md:flex max-h-fit">
               {
                 <Image
                   priority={true}
@@ -37,7 +37,7 @@ export default function Home() {
                 />
               }
             </div>
-            <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
+            <div className="flex flex-col items-center self-center w-1/2 lg:w-full lg:text-center">
               <AnimatedText
                 text="Hey, I’m Riley"
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
@@ -54,7 +54,7 @@ export default function Home() {
                 keen eye for design and a robust understanding of front-end and
                 back-end technologies.
               </p>
-              <div className="mt-2 flex items-center self-start gap-3 grid-cols-2 lg:self-center">
+              <div className="flex items-center self-start grid-cols-2 gap-3 mt-2 lg:self-center">
                 <Link
                   href="/about/"
                   target={"_self"}
@@ -81,8 +81,8 @@ export default function Home() {
             </div>
           </div>
         </Layout>
-        <div className="fixed right-8 bottom-8 inline-block md:hidden">
-          <iframe
+        <div className="fixed inline-block right-8 bottom-8 md:hidden">
+          {/* <iframe
             className="iframe"
             title="Noongar Seasonal Calendar"
             width="280"
@@ -90,7 +90,7 @@ export default function Home() {
             src="https://seasonal-au.netlify.app/"
             frameborder="0"
             allowfullscreen
-          ></iframe>
+          ></iframe> */}
         </div>
         <HireMe />
       </article>
