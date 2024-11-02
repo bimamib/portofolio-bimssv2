@@ -7,7 +7,7 @@ import Link from "next/link";
 import { useRef } from "react";
 import { HireMe2 } from "@/components/HireMe2";
 
-import proj1 from "../../public/images/projects/clay-theme.png";
+import proj1 from "../../public/images/projects/bg-bookshelf-apps-dicoding.png";
 import loading from "../../public/images/articles/GTA6-VICE.gif";
 
 import TransitionEffect from "@/components/TransitionEffect";
@@ -40,7 +40,7 @@ const MovingImg = ({ title, img, link }) => {
         onMouseMove={handleMouse}
         onMouseLeave={handleMouseLeave}
       >
-        <h2 className="capitalize text-xl font-semibold hover:underline dark:text-light md:text-lg xs:text-base sm:self-start">
+        <h2 className="text-xl font-semibold capitalize hover:underline dark:text-light md:text-lg xs:text-base sm:self-start">
           {title}
         </h2>
         <FramerImage
@@ -69,16 +69,10 @@ const Article = ({ img, title, date, link }) => {
       initial={{ y: 200 }}
       whileInView={{ y: 0, transition: { duration: 0.5, ease: "easeInOut" } }}
       viewport={{ once: true }}
-      className="relative w-full p-4 py-6 my-2 rounded-xl flex sm:flex-col justify-between 
-      bg-light text-dark first:mt-0 border border-solid border-dark
-      border-r-4 border-b-4 dark:bg-dark dark:border-light
-      "
+      className="relative flex justify-between w-full p-4 py-6 my-2 border border-b-4 border-r-4 border-solid rounded-xl sm:flex-col bg-light text-dark first:mt-0 border-dark dark:bg-dark dark:border-light "
     >
       <MovingImg img={img} title={title} link={link} />
-      <span
-        className="text-primary font-semibold dark:text-primaryDark min-w-max pl-4 sm:self-start 
-      sm:pl-0 xs:text-sm"
-      >
+      <span className="pl-4 font-semibold text-primary dark:text-primaryDark min-w-max sm:self-start sm:pl-0 xs:text-sm">
         {date}
       </span>
     </motion.li>
@@ -95,12 +89,7 @@ const FeaturedProject = ({
   tools,
 }) => {
   return (
-    <article
-      className="relative flex w-full items-center  justify-between rounded-3xl rounded-br-2xl border
-border-solid border-dark bg-light p-12 shadow-2xl  dark:border-light dark:bg-dark  lg:flex-col 
-lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4 
-    "
-    >
+    <article className="relative flex items-center justify-between w-full p-12 border border-solid shadow-2xl rounded-3xl rounded-br-2xl border-dark bg-light dark:border-light dark:bg-dark lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4 ">
       <div
         className="absolute  top-0 -right-3 -z-10 h-[103%] w-[101%] rounded-[2.5rem] rounded-br-3xl bg-dark
          dark:bg-light  xs:-right-2 xs:h-[102%] xs:w-[100%]
@@ -109,11 +98,11 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
 
       <Link
         href={link}
-        className="w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full"
+        className="w-1/2 overflow-hidden rounded-lg cursor-pointer lg:w-full"
       >
         <FramerImage
           src={img}
-          className="h-auto w-full object-cover"
+          className="object-cover w-full h-auto"
           alt={title}
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.2 }}
@@ -123,7 +112,7 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
           priority
         />
       </Link>
-      <div className="flex w-1/2 flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6">
+      <div className="flex flex-col items-start justify-between w-1/2 pl-6 lg:w-full lg:pl-0 lg:pt-6">
         <span className="text-xl font-medium text-primary dark:text-light xs:text-base">
           {type}
         </span>
@@ -131,14 +120,14 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
           {tools}
         </span>
         <Link href={link} className="underline-offset-2 hover:underline">
-          <h2 className="my-2 w-full text-left text-4xl font-bold lg:text-3xl xs:text-2xl">
+          <h2 className="w-full my-2 text-4xl font-bold text-left lg:text-3xl xs:text-2xl">
             {title}
           </h2>
         </Link>
-        <p className=" my-2 rounded-md font-medium text-dark dark:text-light sm:text-sm">
+        <p className="my-2 font-medium rounded-md text-dark dark:text-light sm:text-sm">
           {summary}
         </p>
-        <div className="mt-2 flex items-center">
+        <div className="flex items-center mt-2">
           <Link
             href={github}
             target={"_blank"}
@@ -149,12 +138,7 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
           </Link>
           <Link
             href={link}
-            className="ml-4 rounded-lg
-             bg-dark p-2 px-6 text-lg font-semibold
-             sm:px-4 sm:text-base rounded-lg border-2 border-solid bg-dark
-            capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
-            dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
-            md:p-2 md:px-4 md:text-base"
+            className="p-2 px-6 ml-4 text-lg font-semibold capitalize border-2 border-solid rounded-lg bg-dark sm:px-4 sm:text-base text-light hover:border-dark hover:bg-transparent hover:text-dark dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light md:p-2 md:px-4 md:text-base"
             aria-label="Project link"
           >
             View Project
@@ -167,12 +151,7 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
 
 const Project = ({ title, type, img, link, tools }) => {
   return (
-    <article
-      className="relative flex w-full flex-col items-center justify-center rounded-2xl  rounded-br-2xl 
-      border  border-solid  border-dark bg-light p-6  shadow-2xl dark:border-light dark:bg-dark 
-      xs:p-4
-      "
-    >
+    <article className="relative flex flex-col items-center justify-center w-full p-6 border border-solid shadow-2xl rounded-2xl rounded-br-2xl border-dark bg-light dark:border-light dark:bg-dark xs:p-4 ">
       <div
         className="absolute  top-0 -right-3 -z-10 h-[103%] w-[102%] rounded-[2rem] rounded-br-3xl bg-dark
          dark:bg-light  md:-right-2 md:w-[101%] xs:h-[102%]
@@ -181,12 +160,12 @@ const Project = ({ title, type, img, link, tools }) => {
 
       <Link
         href={link}
-        className="w-full cursor-pointer overflow-hidden rounded-lg"
+        className="w-full overflow-hidden rounded-lg cursor-pointer"
       >
         <FramerImage
           src={img}
           alt={title}
-          className="h-auto w-full"
+          className="w-full h-auto"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.2 }}
           sizes="(max-width: 768px) 100vw,
@@ -194,7 +173,7 @@ const Project = ({ title, type, img, link, tools }) => {
               33vw"
         />
       </Link>
-      <div className="mt-4 flex w-full flex-col items-start justify-between">
+      <div className="flex flex-col items-start justify-between w-full mt-4">
         <span className="text-xl font-medium text-primary dark:text-light lg:text-lg md:text-base">
           {type}
         </span>
@@ -203,20 +182,14 @@ const Project = ({ title, type, img, link, tools }) => {
         </span>
 
         <Link href={link} className="underline-offset-2 hover:underline">
-          <h2 className="my-2 w-full text-left text-3xl font-bold lg:text-2xl ">
+          <h2 className="w-full my-2 text-3xl font-bold text-left lg:text-2xl ">
             {title}
           </h2>
         </Link>
-        <div className="flex w-full items-center  justify-between">
+        <div className="flex items-center justify-between w-full">
           <Link
             href={link}
-            className="rounded-lg
-             bg-dark mt-2 px-6 py-2 text-lg font-semibold
-             sm:px-4 sm:text-base rounded-lg border-2 border-solid bg-dark
-            capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
-            dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
-            md:p-2 md:px-4 md:text-base
-            "
+            className="px-6 py-2 mt-2 text-lg font-semibold capitalize border-2 border-solid rounded-lg bg-dark sm:px-4 sm:text-base text-light hover:border-dark hover:bg-transparent hover:text-dark dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light md:p-2 md:px-4 md:text-base "
             aria-label={title}
           >
             View Project
@@ -256,7 +229,7 @@ export default function Projects() {
                 summary="Image-centric Gatsby theme for publishers, portfolio, photographers blogs and more."
                 img={proj1}
                 date="2023"
-                link="/projects/clay-gatsby-theme"
+                link="/projects/bookshelf-apps-dicoding"
                 github="https://travislord.xyz/projects/clay-gatsby-theme"
               />
             </div>
@@ -285,7 +258,7 @@ export default function Projects() {
           </div>
 
           <div>
-            <ul className="flex flex-col items-center relative pt-16">
+            <ul className="relative flex flex-col items-center pt-16">
               <Article
                 title="Adding more soon, thanks for the interest!"
                 img={loading}
@@ -295,7 +268,7 @@ export default function Projects() {
               />
             </ul>
 
-            <div className="mt-2 flex items-center justify-between gap-3 grid-cols-2">
+            <div className="flex items-center justify-between grid-cols-2 gap-3 mt-2">
               <Link
                 href="/articles/"
                 target={"_self"}
