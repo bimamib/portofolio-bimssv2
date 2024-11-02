@@ -24,7 +24,7 @@ const Skills = () => {
   const ref = useRef(null);
   return (
     <>
-      <h2 className="font-bold text-8xl mt-64 w-full text-center md:text-6xl md:mt-32">
+      <h2 className="w-full mt-64 font-bold text-center text-8xl md:text-6xl md:mt-32">
         Skills
       </h2>
       <div
@@ -37,9 +37,7 @@ const Skills = () => {
       >
         <motion.div
           whileHover={{ scale: 1.05 }}
-          className="cursor-default flex rounded-full font-semibold bg-dark text-light px-6 py-7 shadow-dark
-        dark:bg-light dark:text-dark lg:p-6 md:p-4 xs:text-xs xs:p-2
-        "
+          className="flex px-6 font-semibold rounded-full cursor-default bg-dark text-light py-7 shadow-dark dark:bg-light dark:text-dark lg:p-6 md:p-4 xs:text-xs xs:p-2 "
         >
           Web
         </motion.div>
@@ -47,9 +45,9 @@ const Skills = () => {
         <Skill name="HTML" x="-20vw" y="2vw" />
         <Skill name="Tailwind" x="-5vw" y="-10vw" />
         <Skill name="JavaScript" x="20vw" y="6vw" />
-        <Skill name="TypeScript" x="0vw" y="12vw" />
+        <Skill name="VueJS" x="0vw" y="12vw" />
         <Skill name="Next.js" x="-20vw" y="-15vw" />
-        <Skill name="Gatsby" x="15vw" y="-12vw" />
+        <Skill name="AlpineJS" x="15vw" y="-12vw" />
         <Skill name="Git" x="-35vw" y="-5vw" />
         <Skill name="UI / UX" x="32vw" y="-5vw" />
         <Skill name="Node.js" x="0vw" y="-20vw" />
