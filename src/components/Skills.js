@@ -52,7 +52,7 @@ const Skills = () => {
         <Skill name="UI / UX" x="32vw" y="-5vw" />
         <Skill name="Node.js" x="0vw" y="-20vw" />
         <Skill name="React" x="-25vw" y="18vw" />
-        <Skill name="Framer Motion" x="28vw" y="18vw" />
+        <Skill name="Material 3" x="28vw" y="18vw" />
       </div>
     </>
   );

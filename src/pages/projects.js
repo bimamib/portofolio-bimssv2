@@ -223,9 +223,9 @@ export default function Projects() {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                type="Design & Development"
-                tools="HTML | CSS | JavaScript | Gatsby"
-                title="Clay - Gatsby Theme"
+                type="Front-End Web Development"
+                tools="HTML | CSS | JavaScript"
+                title="Bookshelf Apps Dicoding"
                 summary="Image-centric Gatsby theme for publishers, portfolio, photographers blogs and more."
                 img={proj1}
                 date="2023"
