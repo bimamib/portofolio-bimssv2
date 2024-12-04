@@ -8,6 +8,7 @@ import { useRef } from "react";
 import { HireMe2 } from "@/components/HireMe2";
 
 import proj1 from "../../public/images/projects/bg-bookshelf-apps-dicoding.png";
+import proj2 from "../../public/images/projects/bg-notes-apps-dicoding.png";
 import loading from "../../public/images/articles/GTA6-VICE.gif";
 
 import TransitionEffect from "@/components/TransitionEffect";
@@ -226,7 +227,6 @@ export default function Projects() {
                 type="Front-End Web Development"
                 tools="HTML | CSS | JavaScript"
                 title="Bookshelf Apps Dicoding"
-                summary="Image-centric Gatsby theme for publishers, portfolio, photographers blogs and more."
                 img={proj1}
                 date="2023"
                 link="/projects/bookshelf-apps-dicoding"
@@ -238,9 +238,9 @@ export default function Projects() {
                 type="Design & Development"
                 tools="HTML | CSS | JavaScript | Gatsby"
                 title="Clay - Gatsby Theme"
-                img={proj1}
+                img={proj2}
                 date="2023"
-                link="/projects/clay-gatsby-theme"
+                link="/projects/notes-apps-dicoding"
                 github="https://travislord.xyz/projects/clay-gatsby-theme"
               />
             </div>
