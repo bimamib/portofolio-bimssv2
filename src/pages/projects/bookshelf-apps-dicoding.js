@@ -71,25 +71,36 @@ export default function About() {
                 Front-End Web | Back-End
               </h3>
               <div classNname="w-full border-2 border-solid border-light bg-light"></div>
-              <p className="">
-                I am thrilled to share some exciting news with the web
-                development community! I have recently launched a cutting-edge
-                Gatsby Framework Template called Clay, meticulously crafted to
-                seamlessly integrate with Netlify CMS, providing an effortless
-                and efficient solution for content management in the realm of
-                web development.
-              </p>
+              <ul className="text-justify list-disc pl-8 text-base marker:text-xl marker:text-blue-500 marker:leading-[1.2]">
+                <li>
+                  Browser Object Model (BOM) dan Document Object Model (DOM)
+                  untuk memanipulasi konten atau styling halaman web.
+                </li>
+                <li>
+                  Bermain dengan event pada elemen HTML untuk memberikan suatu
+                  instruksi. Selain itu, Anda mampu mengubah konten website
+                  melalui teknik manipulasi DOM pada saat event terjadi.
+                </li>
+                <li>
+                  Dua jenis penyimpanan yang dapat mempertahankan data Anda di
+                  aplikasi web, yaitu localStorage dan sessionStorage.
+                </li>
+                <li>
+                  Terakhir, Anda sudah mampu membuat website untuk mengelola
+                  daftar To-Do dengan baik menggunakan teknik manipulasi DOM,
+                  Event, dan Web Storage.
+                </li>
+              </ul>
               <h4 className="mt-4 text-lg capitalize font-800 text-dark/75 dark:text-light/75">
-                Unleashing the Power of Gatsby Framework
+                Submission: Membangun Bookshelf App
               </h4>
-              <p className="my-4">
-                At the heart of Clay lies the robust Gatsby Framework. This
-                innovative framework empowers developers to leverage the latest
-                web technologies, including React, GraphQL, and Webpack. The
-                outcome is nothing short of exceptional—Clay delivers
-                lightning-fast, highly optimized websites, waving goodbye to the
-                era of slow load times and ushering in an age of unparalleled
-                performance.
+              <p className="my-4 text-justify">
+                Submission ini akan meminta Anda membuat aplikasi dengan tema
+                aplikasi pencatatan buku. Ini kita namakan “Bookshelf App”.
+                Aplikasi tersebut Anda butuhkan sebagai salah satu syarat untuk
+                lulus dari kelas ini. Kami mengedepankan kreativitas Anda dalam
+                membangun aplikasi, tetapi pastikan aplikasi yang dibuat
+                memenuhi kriteria yang akan kami jelaskan.
               </p>
 
               <div className="flex items-center grid-cols-8 gap-4 mt-2 sm:gap-8">
@@ -115,7 +126,7 @@ export default function About() {
                   className="w-10"
                   aria-label="github link"
                 >
-                  <DevIcon />
+                  {/* <DevIcon /> */}
                 </Link>
               </div>
             </div>
