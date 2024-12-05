@@ -58,7 +58,7 @@ export default function About() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Bookshel Apps"
+            text="Bookshelf Apps"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
 
@@ -120,14 +120,14 @@ export default function About() {
                 >
                   <GithubIcon />
                 </Link>
-                <Link
+                {/* <Link
                   href="https://dev.to/lilxyzz/clay-theme-unlocking-the-power-of-gatsby-v5-and-netlifycms-with-clay-theme-njn"
                   target={"_blank"}
                   className="w-10"
                   aria-label="github link"
                 >
-                  {/* <DevIcon /> */}
-                </Link>
+                  <DevIcon />
+                </Link> */}
               </div>
             </div>
             <div className="relative col-span-4 p-8 border-2 border-solid h-max rounded-2xl border-dark bg-light dark:border-light dark:bg-dark xl:col-span-4 md:col-span-8 md:order-1 ">
