@@ -39,7 +39,7 @@ const Skills = () => {
           whileHover={{ scale: 1.05 }}
           className="flex px-6 font-semibold rounded-full cursor-default bg-dark text-light py-7 shadow-dark dark:bg-light dark:text-dark lg:p-6 md:p-4 xs:text-xs xs:p-2 "
         >
-          Web
+          Web & Mobile
         </motion.div>
 
         <Skill name="HTML" x="-20vw" y="2vw" />
@@ -53,6 +53,8 @@ const Skills = () => {
         <Skill name="Node.js" x="0vw" y="-20vw" />
         <Skill name="React" x="-25vw" y="18vw" />
         <Skill name="Material 3" x="28vw" y="18vw" />
+        <Skill name="TypeScript" x="0vw" y="20vw" />
+        <Skill name="Kotlin" x="-30vw" y="8vw" />
       </div>
     </>
   );
