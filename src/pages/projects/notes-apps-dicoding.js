@@ -58,76 +58,92 @@ export default function About() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Bookshel Apps"
+            text="Notes Apps"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
 
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="flex flex-col items-start justify-start col-span-4 xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-2xl font-bold capitalize text-dark/75 dark:text-light/75">
-                Bookshelf Apps Dicoding
+                Proyek Akhir: Membangun Aplikasi Catatan Menggunakan React
               </h2>
               <h3 className="mb-4 text-lg font-bold text-lightGreen dark:text-primaryDark">
-                Front-End Web | Back-End
+                Front-End Web | Type Script | React | TailwindCSS
               </h3>
               <div classNname="w-full border-2 border-solid border-light bg-light"></div>
               <ul className="text-justify list-disc pl-8 text-base marker:text-xl marker:text-blue-500 marker:leading-[1.2]">
                 <li>
-                  Browser Object Model (BOM) dan Document Object Model (DOM)
-                  untuk memanipulasi konten atau styling halaman web.
+                  Berkenalan dengan React, mengetahui alasan mempelajari React,
+                  dan mengenal ekosistem yang ada di React.
                 </li>
                 <li>
-                  Bermain dengan event pada elemen HTML untuk memberikan suatu
-                  instruksi. Selain itu, Anda mampu mengubah konten website
-                  melalui teknik manipulasi DOM pada saat event terjadi.
+                  Belajar tentang konsep dasar React seperti composition,
+                  declarative code, unidirectional data flow, dan menyadari
+                  bahwa React hanyalah JavaScript
                 </li>
                 <li>
-                  Dua jenis penyimpanan yang dapat mempertahankan data Anda di
-                  aplikasi web, yaitu localStorage dan sessionStorage.
+                  Belajar tentang membangun UI di React seperti mengenal element
+                  dan component. Serta, belajar juga konsep component properti
+                  yang membuat UI aplikasi bersifat reusable.
                 </li>
                 <li>
-                  Terakhir, Anda sudah mampu membuat website untuk mengelola
-                  daftar To-Do dengan baik menggunakan teknik manipulasi DOM,
-                  Event, dan Web Storage.
+                  Belajar tentang class component, menggunakan state di dalam
+                  component, mengubah nilai state berdasarkan event handling,
+                  serta memahami dan mempraktikkan controlled component.
                 </li>
               </ul>
               <h4 className="mt-4 text-lg capitalize font-800 text-dark/75 dark:text-light/75">
-                Submission: Membangun Bookshelf App
+                Kriteria Utama 1: Mampu Menampilkan Daftar Catatan
               </h4>
-              <p className="my-4 text-justify">
+              <div className="my-4">
+                <ul className="text-justify list-disc pl-8 text-base marker:text-xl marker:text-blue-500 marker:leading-[1.2]">
+                  <li>
+                    Aplikasi harus mampu menampilkan daftar catatan dengan data
+                    awal (initial data) yang telah kami sediakan.
+                  </li>
+                  <li>
+                    Memanfaatkan state component untuk menyimpan data catatan.
+                  </li>
+                  <li>
+                    Menggunakan teknik array map untuk menampilkan daftar
+                    catatan.
+                  </li>
+                </ul>
+              </div>
+              {/* <p className="my-4 text-justify">
                 Submission ini akan meminta Anda membuat aplikasi dengan tema
                 aplikasi pencatatan buku. Ini kita namakan “Bookshelf App”.
                 Aplikasi tersebut Anda butuhkan sebagai salah satu syarat untuk
                 lulus dari kelas ini. Kami mengedepankan kreativitas Anda dalam
                 membangun aplikasi, tetapi pastikan aplikasi yang dibuat
                 memenuhi kriteria yang akan kami jelaskan.
-              </p>
+              </p> */}
 
               <div className="flex items-center grid-cols-8 gap-4 mt-2 sm:gap-8">
                 <Link
                   className="p-2 px-6 text-lg font-semibold capitalize border-2 border-solid rounded-lg bg-dark sm:px-4 sm:text-base text-light hover:border-dark hover:bg-transparent hover:text-dark dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light md:p-2 md:px-4 md:text-base"
                   aria-label="Visit Theme Demo"
-                  href="https://book-shelf-apps.vercel.app/"
+                  href="https://notesapps-dicoding.netlify.app/"
                   target={"_blank"}
                 >
                   Visit Demo
                 </Link>
                 <Link
-                  href="https://github.com/bimamib/Book-Shelf_Apps"
+                  href="https://github.com/bimamib/notes-app"
                   target={"_blank"}
                   className="w-10"
                   aria-label="github link"
                 >
                   <GithubIcon />
                 </Link>
-                <Link
+                {/* <Link
                   href="https://dev.to/lilxyzz/clay-theme-unlocking-the-power-of-gatsby-v5-and-netlifycms-with-clay-theme-njn"
                   target={"_blank"}
                   className="w-10"
                   aria-label="github link"
                 >
-                  {/* <DevIcon /> */}
-                </Link>
+                  <DevIcon />
+                </Link> */}
               </div>
             </div>
             <div className="relative col-span-4 p-8 border-2 border-solid h-max rounded-2xl border-dark bg-light dark:border-light dark:bg-dark xl:col-span-4 md:col-span-8 md:order-1 ">
