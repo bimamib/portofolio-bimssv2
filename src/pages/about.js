@@ -56,14 +56,11 @@ export default function About() {
           />
 
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
-            <div
-              className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 
-            md:col-span-8"
-            >
+            <div className="flex flex-col items-start justify-start col-span-3 xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
                 BIOGRAPHY
               </h2>
-              <p className="font-medium ">
+              <p className="font-medium text-justify">
                 I'm Riley, a dedicated web developer at Stellar Innovations,
                 where I specialize in creating dynamic and user-centric web
                 experiences. With over a decade of experience in the industry, I
@@ -71,7 +68,7 @@ export default function About() {
                 technologies, allowing me to deliver responsive and
                 high-performance websites and applications.
               </p>
-              <p className="my-4 font-medium">
+              <p className="my-4 font-medium text-justify">
                 At Stellar Innovations, I've had the opportunity to work on
                 numerous high-profile projects that have challenged and expanded
                 my expertise. My technical skill set includes HTML, CSS,
@@ -87,19 +84,14 @@ export default function About() {
                 P.s I'm a big fan of anime and not a real person ✌️.
               </p>
             </div>
-            <div
-              className="relative col-span-3 h-max rounded-2xl border-2 border-solid border-dark 
-            bg-light p-8 dark:border-light dark:bg-dark
-            xl:col-span-4 md:col-span-8 md:order-1
-            "
-            >
+            <div className="relative col-span-3 p-8 border-2 border-solid h-max rounded-2xl border-dark bg-light dark:border-light dark:bg-dark xl:col-span-4 md:col-span-8 md:order-1 ">
               <div
                 className="absolute  top-0 -right-3 -z-10 h-[103%] w-[102%]  rounded-[2rem] rounded-br-3xl 
                 bg-dark
         dark:bg-light  "
               />
               <Image
-                className="h-auto w-full rounded-2xl border-2 border-solid border-dark"
+                className="w-full h-auto border-2 border-solid rounded-2xl border-dark"
                 priority={true}
                 src={profile}
                 alt="Travis Lord"
@@ -108,42 +100,30 @@ export default function About() {
               33vw"
               />
             </div>
-            <div
-              className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row 
-            xl:items-center md:order-3"
-            >
+            <div className="flex flex-col items-end justify-between col-span-2 xl:col-span-8 xl:flex-row xl:items-center md:order-3">
               <div className="flex flex-col items-end justify-center xl:items-center">
-                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
+                <span className="inline-block font-bold text-7xl md:text-6xl sm:text-5xl xs:text-4xl">
                   <AnimatedNumberFramerMotion value={1461} />+
                 </span>
-                <h3
-                  className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
-                xl:text-center md:text-lg sm:text-base xs:text-sm"
-                >
+                <h3 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Days of Coding
                 </h3>
               </div>
 
               <div className="flex flex-col items-end justify-center xl:items-center">
-                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
+                <span className="inline-block font-bold text-7xl md:text-6xl sm:text-5xl xs:text-4xl">
                   <AnimatedNumberFramerMotion value={500} />
                 </span>
-                <h3
-                  className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
-                xl:text-center md:text-lg sm:text-base xs:text-sm"
-                >
+                <h3 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Bugs Made
                 </h3>
               </div>
 
               <div className="flex flex-col items-end justify-center xl:items-center">
-                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
+                <span className="inline-block font-bold text-7xl md:text-6xl sm:text-5xl xs:text-4xl">
                   <AnimatedNumberFramerMotion value={499} />
                 </span>
-                <h3
-                  className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
-                xl:text-center md:text-lg sm:text-base xs:text-sm"
-                >
+                <h3 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Bugs Crushed
                 </h3>
               </div>
