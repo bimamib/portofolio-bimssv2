@@ -230,18 +230,18 @@ export default function Projects() {
                 img={proj1}
                 date="2023"
                 link="/projects/bookshelf-apps-dicoding"
-                github="https://travislord.xyz/projects/clay-gatsby-theme"
+                github="https://github.com/bimamib/Book-Shelf_Apps"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Design & Development"
-                tools="HTML | CSS | JavaScript | Gatsby"
-                title="Clay - Gatsby Theme"
+                type="Web Development"
+                tools="React | Tailwind CSS | Type Script"
+                title="Notes Apps"
                 img={proj2}
-                date="2023"
+                date="2024"
                 link="/projects/notes-apps-dicoding"
-                github="https://travislord.xyz/projects/clay-gatsby-theme"
+                github="https://github.com/bimamib/notes-app"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -264,7 +264,7 @@ export default function Projects() {
                 img={loading}
                 time="1 min read"
                 date=""
-                link="https://github.com/lilxyzz/"
+                link="https://github.com/bimamib"
               />
             </ul>
 
