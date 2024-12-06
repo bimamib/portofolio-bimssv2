@@ -71,8 +71,8 @@ const Experience = () => {
             company="Bangkit Academy 2023 Batch 2"
             time="Aug 2023 - Dec 2023"
             address="Jakarta, Indonesia (Remote)"
-            companyLink="https://github.com/lilxyzz/holo-theme"
-            work="At Vault Technologies, I worked as a RAD (Rapid Application Development) Tester, where I was responsible for ensuring the quality and functionality of our software applications during the development process. My role involved designing and executing test plans, identifying and documenting bugs, and working closely with developers to resolve issues quickly. This position required a deep understanding of the software development lifecycle and a keen eye for detail to ensure our applications met the highest standards of performance and reliability. My contributions at Vault Technologies helped streamline our development processes and significantly improved the overall quality of our software products."
+            companyLink="https://github.com/JasaKarya"
+            work="I completed Kampus Merdeka's Bangkit Academy programme, supported by Google, GoTo, Tokopedia, and Traveloka, which aims to produce top digital talent for Indonesian tech companies. I mastered Android development using Kotlin, Android Studio, MVVM architecture, and Singleton pattern. I also collaborated with participants from other learning paths such as Machine Learning, and Cloud Computing to develop the ‘Jasa Karya’ application. The application aims to provide services in the field of Art of course which will be channelled to various creative art companies. The app uses API integration, Firebase Authentication, a seamless Firebase Realtime Database and a great user experience."
           />
 
           <Details
