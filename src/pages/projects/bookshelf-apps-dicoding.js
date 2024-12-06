@@ -43,9 +43,7 @@ export default function About() {
           rel="canonical"
           href="https://travislord.xyz/projects/clay-gatsby-theme"
         ></link>
-        <title>
-          Clay Theme | Unlocking The Power Of Gatsby V5+ | By Travis Lord
-        </title>
+        <title>Bookshelf Apps Dicoding</title>
         <meta
           name="description"
           content="I am thrilled to share Clay Theme with the web development community! I have recently launched Clay Theme, a cutting-edge Gatsby Framework Template."
