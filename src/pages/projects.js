@@ -205,7 +205,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects | By NexTemp</title>
+        <title>Bimss | Projects</title>
         <meta
           name="description"
           content="NexTemp, A open-source portfolio theme built with Nextjs"
