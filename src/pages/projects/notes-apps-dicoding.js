@@ -108,6 +108,37 @@ export default function About() {
                   </li>
                 </ul>
               </div>
+
+              <h4 className="mt-4 text-lg capitalize font-800 text-dark/75 dark:text-light/75">
+                Kriteria Utama 2: Mampu Menambahkan Catatan
+              </h4>
+              <div className="my-4">
+                <ul className="text-justify list-disc pl-8 text-base marker:text-xl marker:text-blue-500 marker:leading-[1.2]">
+                  <li>Aplikasi harus mampu menambahkan data catatan baru.</li>
+                  <li>
+                    Memanfaatkan controlled component dalam membuat form input.
+                  </li>
+                  <li>
+                    Data catatan disimpan cukup pada memori saja (akan hilang
+                    jika browser di-refresh).
+                  </li>
+                  <li>
+                    Data catatan yang disimpan merupakan objek JavaScript dengan
+                    struktur berikut.
+                    <pre className="p-4 mt-2 overflow-auto text-sm rounded-lg hljs">
+                      <code className="font-mono">
+                        {`{
+  id: number | string,
+  title: string,
+  body: string,
+  archived: boolean,
+  createdAt: string,
+}`}
+                      </code>
+                    </pre>
+                  </li>
+                </ul>
+              </div>
               {/* <p className="my-4 text-justify">
                 Submission ini akan meminta Anda membuat aplikasi dengan tema
                 aplikasi pencatatan buku. Ini kita namakan “Bookshelf App”.
