@@ -64,7 +64,7 @@ export default function About() {
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="flex flex-col items-start justify-start col-span-4 xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-2xl font-bold capitalize text-dark/75 dark:text-light/75">
-                Proyek Akhir: Membangun Aplikasi Catatan Menggunakan React
+                Final Project: Building a Notes Application Using React
               </h2>
               <h3 className="mb-4 text-lg font-bold text-lightGreen dark:text-primaryDark">
                 Front-End Web | Type Script | React | TailwindCSS
@@ -72,80 +72,77 @@ export default function About() {
               <div classNname="w-full border-2 border-solid border-light bg-light"></div>
               <ul className="text-justify list-disc pl-8 text-base marker:text-xl marker:text-blue-500 marker:leading-[1.2]">
                 <li>
-                  Berkenalan dengan React, mengetahui alasan mempelajari React,
-                  dan mengenal ekosistem yang ada di React.
+                  Get acquainted with React, learn why to learn React, and get
+                  to know the React ecosystem.
                 </li>
                 <li>
-                  Belajar tentang konsep dasar React seperti composition,
-                  declarative code, unidirectional data flow, dan menyadari
-                  bahwa React hanyalah JavaScript
+                  Learn about basic React concepts such as composition,
+                  declarative code, unidirectional data flow, and realized that
+                  that React is just a Java Script.
                 </li>
                 <li>
-                  Belajar tentang membangun UI di React seperti mengenal element
-                  dan component. Serta, belajar juga konsep component properti
-                  yang membuat UI aplikasi bersifat reusable.
+                  Learn about building UI in React such as recognizing elements
+                  and components. Also, learn the concept of component
+                  properties which makes the application UI reusable.
                 </li>
                 <li>
-                  Belajar tentang class component, menggunakan state di dalam
-                  component, mengubah nilai state berdasarkan event handling,
-                  serta memahami dan mempraktikkan controlled component.
+                  Learn about class components, using state in component,
+                  changing the state value based on event handling, and
+                  understand and practice controlled components.
                 </li>
               </ul>
               <h4 className="mt-4 text-lg capitalize font-800 text-dark/75 dark:text-light/75">
-                Kriteria Utama 1: Mampu Menampilkan Daftar Catatan
+                Key Criterion 1: Able to Display List of Notes
               </h4>
               <div className="my-4">
                 <ul className="text-justify list-disc pl-8 text-base marker:text-xl marker:text-blue-500 marker:leading-[1.2]">
                   <li>
-                    Aplikasi harus mampu menampilkan daftar catatan dengan data
-                    awal (initial data) yang telah kami sediakan.
+                    The application must be able to display a list of records
+                    with the (initial data) that we have provided.
                   </li>
+                  <li>Utilize the state component to store record data.</li>
                   <li>
-                    Memanfaatkan state component untuk menyimpan data catatan.
-                  </li>
-                  <li>
-                    Menggunakan teknik array map untuk menampilkan daftar
-                    catatan.
+                    Using the array map technique to display a list of records.
                   </li>
                 </ul>
               </div>
 
               <h4 className="mt-4 text-lg capitalize font-800 text-dark/75 dark:text-light/75">
-                Kriteria Utama 2: Mampu Menambahkan Catatan
+                Key Criterion 2: Be able to add notes
               </h4>
               <div className="my-4">
                 <ul className="text-justify list-disc pl-8 text-base marker:text-xl marker:text-blue-500 marker:leading-[1.2]">
-                  <li>Aplikasi harus mampu menambahkan data catatan baru.</li>
+                  <li>The app must be able to add new record data.</li>
                   <li>
-                    Memanfaatkan controlled component dalam membuat form input.
+                    Utilize controlled components in creating input forms.
                   </li>
                   <li>
-                    Data catatan disimpan cukup pada memori saja (akan hilang
-                    jika browser di-refresh).
+                    The record data is stored in memory only (it will be lost if
+                    the browser is refreshed).
                   </li>
                   <li>
-                    Data catatan yang disimpan merupakan objek JavaScript dengan
-                    struktur berikut.
+                    The record data stored is a Java Script object with the
+                    following structure.
                     <CodeBlock1 />
                   </li>
                 </ul>
               </div>
 
               <h4 className="mt-4 text-lg capitalize font-800 text-dark/75 dark:text-light/75">
-                Kriteria Utama 3: Mampu Menghapus Catatan
+                Key Criterion 3: Able to Delete Notes
               </h4>
               <div className="my-4">
                 <ul className="text-justify list-disc pl-8 text-base marker:text-xl marker:text-blue-500 marker:leading-[1.2]">
                   <li>
-                    Aplikasi harus menyediakan tombol{" "}
-                    <span className="font-bold">hapus</span> untuk menghapus
-                    data catatan yang disimpan.
+                    The app must provide a button{" "}
+                    <span className="font-bold">Delete</span> to delete the
+                    saved record data.
                   </li>
                   <li>
-                    Terdapat conditional rendering di mana bila tidak terdapat
-                    data catatan, maka UI menampilkan pesan{" "}
-                    <span className="font-bold">“Tidak ada catatan”</span> atau
-                    pesan apa pun yang mengindikasikan data catatan kosong.
+                    There is conditional rendering where if there is no record
+                    data, the UI displays a message{" "}
+                    <span className="font-bold">“No notes”</span> or any message
+                    indicating the record data is empty.
                   </li>
                 </ul>
               </div>
