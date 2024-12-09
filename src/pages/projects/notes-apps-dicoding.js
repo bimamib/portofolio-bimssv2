@@ -10,6 +10,7 @@ import { GithubIcon } from "@/components/Icons";
 import { DevIcon } from "@/components/Icons";
 
 import proj2 from "/public/images/projects/bg-notes-apps-dicoding.png";
+import CodeBlock1 from "@/components/CodeBlock";
 
 function AnimatedNumberFramerMotion({ value }) {
   const ref = useRef(null);
@@ -125,17 +126,26 @@ export default function About() {
                   <li>
                     Data catatan yang disimpan merupakan objek JavaScript dengan
                     struktur berikut.
-                    <pre className="p-4 mt-2 overflow-auto text-sm rounded-lg hljs">
-                      <code className="font-mono">
-                        {`{
-  id: number | string,
-  title: string,
-  body: string,
-  archived: boolean,
-  createdAt: string,
-}`}
-                      </code>
-                    </pre>
+                    <CodeBlock1 />
+                  </li>
+                </ul>
+              </div>
+
+              <h4 className="mt-4 text-lg capitalize font-800 text-dark/75 dark:text-light/75">
+                Kriteria Utama 3: Mampu Menghapus Catatan
+              </h4>
+              <div className="my-4">
+                <ul className="text-justify list-disc pl-8 text-base marker:text-xl marker:text-blue-500 marker:leading-[1.2]">
+                  <li>
+                    Aplikasi harus menyediakan tombol{" "}
+                    <span className="font-bold">hapus</span> untuk menghapus
+                    data catatan yang disimpan.
+                  </li>
+                  <li>
+                    Terdapat conditional rendering di mana bila tidak terdapat
+                    data catatan, maka UI menampilkan pesan{" "}
+                    <span className="font-bold">“Tidak ada catatan”</span> atau
+                    pesan apa pun yang mengindikasikan data catatan kosong.
                   </li>
                 </ul>
               </div>
