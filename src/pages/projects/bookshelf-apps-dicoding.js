@@ -71,34 +71,33 @@ export default function About() {
               <div classNname="w-full border-2 border-solid border-light bg-light"></div>
               <ul className="text-justify list-disc pl-8 text-base marker:text-xl marker:text-blue-500 marker:leading-[1.2]">
                 <li>
-                  Browser Object Model (BOM) dan Document Object Model (DOM)
-                  untuk memanipulasi konten atau styling halaman web.
+                  Browser Object Model (BOM) and Document Object Model (DOM) to
+                  manipulate the content or styling of web pages.
                 </li>
                 <li>
-                  Bermain dengan event pada elemen HTML untuk memberikan suatu
-                  instruksi. Selain itu, Anda mampu mengubah konten website
-                  melalui teknik manipulasi DOM pada saat event terjadi.
+                  Play with events on HTML elements to provide an instruction.
+                  In addition, you can change the website content through DOM
+                  manipulation techniques when an event occurs.
                 </li>
                 <li>
-                  Dua jenis penyimpanan yang dapat mempertahankan data Anda di
-                  aplikasi web, yaitu localStorage dan sessionStorage.
+                  Two types of storage that can retain your data in web
+                  application, namely localStorage and sessionStorage.
                 </li>
                 <li>
-                  Terakhir, Anda sudah mampu membuat website untuk mengelola
-                  daftar To-Do dengan baik menggunakan teknik manipulasi DOM,
-                  Event, dan Web Storage.
+                  Finally, you have been able to create a website to manage
+                  To-Do list using DOM manipulation techniques, Event, and Web
+                  Storage manipulation techniques.
                 </li>
               </ul>
               <h4 className="mt-4 text-lg capitalize font-800 text-dark/75 dark:text-light/75">
-                Submission: Membangun Bookshelf App
+                Submission: Building a Bookshelf App
               </h4>
               <p className="my-4 text-justify">
-                Submission ini akan meminta Anda membuat aplikasi dengan tema
-                aplikasi pencatatan buku. Ini kita namakan “Bookshelf App”.
-                Aplikasi tersebut Anda butuhkan sebagai salah satu syarat untuk
-                lulus dari kelas ini. Kami mengedepankan kreativitas Anda dalam
-                membangun aplikasi, tetapi pastikan aplikasi yang dibuat
-                memenuhi kriteria yang akan kami jelaskan.
+                This submission will ask you to create an app with the theme of
+                a bookshelf app. This is called “Bookshelf App”. You need the
+                app as one of the requirements to graduate from this class. We
+                emphasize your creativity in build the app, but make sure it
+                meets the meet the criteria that we will explain.
               </p>
 
               <div className="flex items-center grid-cols-8 gap-4 mt-2 sm:gap-8">
