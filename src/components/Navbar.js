@@ -225,7 +225,7 @@ const Navbar = () => {
               href="https://www.linkedin.com/in/bimamib16/"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              aria-label="Checkout my Medium profile"
+              aria-label="Checkout my LinkedIn profile"
             >
               <LinkedInIcon />
             </motion.a>
