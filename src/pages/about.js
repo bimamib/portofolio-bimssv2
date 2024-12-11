@@ -38,7 +38,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About NexTemp</title>
+        <title>About Me</title>
         <meta
           name="description"
           content="NexTemp, A open-source portfolio theme built with Nextjs"
@@ -51,7 +51,7 @@ export default function About() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Let Passion Lead Your Purpose 🔥"
+            text="Curious about how to make a game: My Coding Journey Started Here! 🔥"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
 
@@ -61,24 +61,24 @@ export default function About() {
                 BIOGRAPHY
               </h2>
               <p className="font-medium text-justify">
-                I'm Riley, a dedicated web developer at Stellar Innovations,
-                where I specialize in creating dynamic and user-centric web
-                experiences. With over a decade of experience in the industry, I
-                have honed my skills in both front-end and back-end
-                technologies, allowing me to deliver responsive and
-                high-performance websites and applications.
+                Hello, I'm Bima Prasetio, you can call me Bimss or Bima. I am a
+                graduate of Informatics Engineering from Universitas
+                Muhammadiyah Prof Dr Hamka, where I thought I would learn a lot
+                about coding, but it turns out that only a little material is
+                taught about coding🤣. Currently, I handle Front-End Web and
+                Mobile Development. Why not Full-Stack? Because my logic is very
+                minimal related to Full-Stack, then instead of Full-Stack, I'll
+                be Full-Stuck, HAHAHA 😆. Even in Front-End, I'm already ‘waduh
+                waduh’ because of bugs, what will Full-Stack be? 😂. But calm
+                down in the future, I will definitely learn more about
+                Full-Stack.
               </p>
               <p className="my-4 font-medium text-justify">
-                At Stellar Innovations, I've had the opportunity to work on
-                numerous high-profile projects that have challenged and expanded
-                my expertise. My technical skill set includes HTML, CSS,
-                JavaScript, React, and Node.js, among other technologies. One of
-                my notable projects involved developing a comprehensive
-                e-commerce platform that streamlined the user experience and
-                significantly boosted the client's sales. Another project I’m
-                particularly proud of was creating an interactive web
-                application for a major event, which received widespread acclaim
-                for its intuitive design and seamless performance.
+                When I was in college, I was active enough to join the Web
+                Programming Community and committee activities at my university.
+                In the community, I worked in the marketing division. Not bad to
+                add to my editing skills 😎, even though I only edit posters to
+                post on Instagram and share with WhatsApp groups 😝.
               </p>
               <p className="my-4 font-medium">
                 P.s I'm a big fan of anime and not a real person ✌️.
