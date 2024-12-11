@@ -90,8 +90,8 @@ export default function About() {
                 Merdeka Campus programmes, I can make coffee to stay up late
                 ☕💻.
               </p>
-              <p className="my-4 font-medium">
-                P.s I'm a big fan of anime and not a real person ✌️.
+              <p className="my-4 font-medium text-justify">
+                P.s I sometimes like to watch anime and like to play games ✌🏼.
               </p>
             </div>
             <div className="relative col-span-3 p-8 border-2 border-solid h-max rounded-2xl border-dark bg-light dark:border-light dark:bg-dark xl:col-span-4 md:col-span-8 md:order-1 ">
