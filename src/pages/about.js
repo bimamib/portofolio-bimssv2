@@ -80,6 +80,16 @@ export default function About() {
                 add to my editing skills 😎, even though I only edit posters to
                 post on Instagram and share with WhatsApp groups 😝.
               </p>
+              <p className="my-4 font-medium text-justify">
+                Oh yes, one more thing, Alhamdulillah, I also completed the
+                Kampus Merdeka X Dicoding Academy Cycle 4 program, and Bangkit
+                Academy 2023 Batch 2 (thanks to Google, GoTo, and Traveloka)
+                where because of these programs I was able to learn and explore
+                related to Front-End Web and Back-End, as well as Android
+                Development in the Bangkit program. So because of these 2
+                Merdeka Campus programmes, I can make coffee to stay up late
+                ☕💻.
+              </p>
               <p className="my-4 font-medium">
                 P.s I'm a big fan of anime and not a real person ✌️.
               </p>
