@@ -43,7 +43,7 @@ export default function About() {
           rel="canonical"
           href="https://travislord.xyz/projects/clay-gatsby-theme"
         ></link>
-        <title>Bookshelf Apps Dicoding</title>
+        <title>Music Apps</title>
         <meta
           name="description"
           content="I am thrilled to share Clay Theme with the web development community! I have recently launched Clay Theme, a cutting-edge Gatsby Framework Template."
@@ -56,49 +56,124 @@ export default function About() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Bookshelf Apps"
+            text="Music Apps"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
 
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="flex flex-col items-start justify-start col-span-4 xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-2xl font-bold capitalize text-dark/75 dark:text-light/75">
-                Music
+                Music Apps
               </h2>
               <h3 className="mb-4 text-lg font-bold text-lightGreen dark:text-primaryDark">
                 Front-End Web | VueJS | Tailwind | Firebase Auth & Database
               </h3>
               <div classNname="w-full border-2 border-solid border-light bg-light"></div>
-              <ul className="text-justify list-disc pl-8 text-base marker:text-xl marker:text-blue-500 marker:leading-[1.2]">
-                <li>
-                  Browser Object Model (BOM) and Document Object Model (DOM) to
-                  manipulate the content or styling of web pages.
-                </li>
-                <li>
-                  Play with events on HTML elements to provide an instruction.
-                  In addition, you can change the website content through DOM
-                  manipulation techniques when an event occurs.
-                </li>
-                <li>
-                  Two types of storage that can retain your data in web
-                  application, namely localStorage and sessionStorage.
-                </li>
-                <li>
-                  Finally, you have been able to create a website to manage
-                  To-Do list using DOM manipulation techniques, Event, and Web
-                  Storage manipulation techniques.
-                </li>
-              </ul>
+              <p className="text-justify">
+                This project is a music-themed web-based application, where
+                users can browse song collections, view song lists, as well as
+                listen to songs with the inbuilt audio player.
+              </p>
               <h4 className="mt-4 text-lg capitalize font-800 text-dark/75 dark:text-light/75">
-                Submission: Building a Bookshelf App
+                About this Project Music Apps:
               </h4>
-              <p className="my-4 text-justify">
+              <div className="my-4">
+                <ol className="list-decimal pl-8 text-base marker:text-blue-500 marker:leading-[1.2]">
+                  <li>
+                    Framework dan Teknologi Utama:
+                    <ul className="pl-6 my-2 list-disc marker:text-blue-400">
+                      <li className="my-2">
+                        <b>Vue.js:</b>
+                        <p className="text-justify">
+                          Digunakan sebagai framework frontend untuk membangun
+                          antarmuka pengguna (UI) yang dinamis dan interaktif.
+                        </p>
+                      </li>
+                      <li className="my-2">
+                        <b>Tailwind CSS:</b>
+                        <p className="text-justify">
+                          Digunakan untuk membuat komponen antarmuka yang
+                          responsif dan modern, termasuk navigasi, tata letak,
+                          dan styling elemen-elemen pada halaman.
+                        </p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    Authentication:
+                    <ul className="pl-6 list-disc marker:text-blue-400">
+                      <li className="my-2">
+                        <b>Firebase Authentication:</b>
+                        <p className="text-justify">
+                          Digunakan untuk fitur login dan registrasi pengguna.
+                          Ini memungkinkan pengguna untuk mengakses aplikasi
+                          dengan akun mereka secara aman.
+                        </p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    Database:
+                    <ul className="pl-6 list-disc marker:text-blue-400">
+                      <li className="my-2">
+                        <b>Firebase Database:</b>
+                        <p className="text-justify">
+                          Digunakan untuk menyimpan informasi lagu, seperti nama
+                          artis, judul lagu, dan metadata terkait lainnya.
+                        </p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    Fitur Utama:
+                    <ul className="pl-6 list-disc marker:text-blue-400">
+                      <li className="my-2">
+                        <b>Antarmuka Elegan:</b>
+                        <p className="text-justify">
+                          Halaman memiliki desain yang menarik dengan latar
+                          belakang bertema musik.
+                        </p>
+                      </li>
+                      <li className="my-2">
+                        <b>Navigasi Sederhana:</b>
+                        <p className="text-justify">
+                          Terdapat menu navigasi untuk berpindah antara halaman
+                          seperti login/registrasi dan halaman tentang.
+                        </p>
+                      </li>
+                      <li className="my-2">
+                        <b>Pemutar Musik: </b>
+                        <p className="text-justify">
+                          Pengguna dapat mendengarkan lagu dengan kontrol dasar
+                          seperti play dan pause.
+                        </p>
+                      </li>
+                      <li className="my-2">
+                        <b>Daftar Lagu: </b>
+                        <p className="text-justify">
+                          Lagu ditampilkan dalam daftar dengan detail seperti
+                          nama artis dan judul lagu.
+                        </p>
+                      </li>
+                      <li className="my-2">
+                        <b>Komentar atau Ulasan: </b>
+                        <p className="text-justify">
+                          Terdapat fitur untuk menambahkan komentar atau
+                          interaksi pada lagu tertentu.
+                        </p>
+                      </li>
+                    </ul>
+                  </li>
+                </ol>
+              </div>
+
+              {/* <p className="my-4 text-justify">
                 This submission will ask you to create an app with the theme of
                 a bookshelf app. This is called “Bookshelf App”. You need the
                 app as one of the requirements to graduate from this class. We
                 emphasize your creativity in build the app, but make sure it
                 meets the meet the criteria that we will explain.
-              </p>
+              </p> */}
 
               <div className="flex items-center grid-cols-8 gap-4 mt-2 sm:gap-8">
                 <Link
