@@ -9,7 +9,7 @@ import TransitionEffect from "@/components/TransitionEffect";
 import { GithubIcon } from "@/components/Icons";
 import { DevIcon } from "@/components/Icons";
 
-import proj2 from "/public/images/projects/bg-notes-apps-dicoding.png";
+import proj2 from "/public/images/projects/notes-apps-project2.png";
 import CodeBlock1 from "@/components/CodeBlock";
 
 function AnimatedNumberFramerMotion({ value }) {
