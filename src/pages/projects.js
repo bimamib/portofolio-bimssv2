@@ -7,8 +7,9 @@ import Link from "next/link";
 import { useRef } from "react";
 import { HireMe2 } from "@/components/HireMe2";
 
-import proj1 from "../../public/images/projects/bg-bookshelf-apps-dicoding.png";
-import proj2 from "../../public/images/projects/bg-notes-apps-dicoding.png";
+import proj1 from "../../public/images/projects/bookshelf-apps-project1.png";
+import proj2 from "../../public/images/projects/notes-apps-project2.png";
+import proj3 from "../../public/images/projects/music-apps-project3.png";
 import loading from "../../public/images/articles/GTA6-VICE.gif";
 
 import TransitionEffect from "@/components/TransitionEffect";
@@ -246,12 +247,12 @@ export default function Projects() {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Design & Development"
-                tools="HTML | CSS | JavaScript | Gatsby"
-                title="Clay - Gatsby Theme"
-                img={proj1}
-                date="2023"
-                link="/projects/clay-gatsby-theme"
+                type="Web Development"
+                tools="VueJS | Tailwind CSS | Firebase Auth & Database"
+                title="Music Apps"
+                img={proj3}
+                date="2024"
+                link="/projects/music-projects"
                 github="https://travislord.xyz/projects/clay-gatsby-theme"
               />
             </div>
