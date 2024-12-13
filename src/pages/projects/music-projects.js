@@ -80,21 +80,21 @@ export default function About() {
               <div className="my-4">
                 <ol className="list-decimal pl-8 text-base marker:text-blue-500 marker:leading-[1.2]">
                   <li>
-                    Framework dan Teknologi Utama:
+                    Frameworks and Key Technologies:
                     <ul className="pl-6 my-2 list-disc marker:text-blue-400">
                       <li className="my-2">
                         <b>Vue.js:</b>
                         <p className="text-justify">
-                          Digunakan sebagai framework frontend untuk membangun
-                          antarmuka pengguna (UI) yang dinamis dan interaktif.
+                          Used as a frontend framework to build a dynamic and
+                          interactive user interface (UI).
                         </p>
                       </li>
                       <li className="my-2">
                         <b>Tailwind CSS:</b>
                         <p className="text-justify">
-                          Digunakan untuk membuat komponen antarmuka yang
-                          responsif dan modern, termasuk navigasi, tata letak,
-                          dan styling elemen-elemen pada halaman.
+                          Used to create interface components that are
+                          responsive and modern, including navigation, layout,
+                          and styling of elements on the page.
                         </p>
                       </li>
                     </ul>
@@ -105,9 +105,9 @@ export default function About() {
                       <li className="my-2">
                         <b>Firebase Authentication:</b>
                         <p className="text-justify">
-                          Digunakan untuk fitur login dan registrasi pengguna.
-                          Ini memungkinkan pengguna untuk mengakses aplikasi
-                          dengan akun mereka secara aman.
+                          Used for user login and registration features. It
+                          allows users to access the app with their account
+                          securely.
                         </p>
                       </li>
                     </ul>
@@ -118,48 +118,48 @@ export default function About() {
                       <li className="my-2">
                         <b>Firebase Database:</b>
                         <p className="text-justify">
-                          Digunakan untuk menyimpan informasi lagu, seperti nama
-                          artis, judul lagu, dan metadata terkait lainnya.
+                          Used to store song information, such as the name of
+                          the artist, song title, and other related metadata.
                         </p>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    Fitur Utama:
+                    Main Features:
                     <ul className="pl-6 list-disc marker:text-blue-400">
                       <li className="my-2">
-                        <b>Antarmuka Elegan:</b>
+                        <b>Elegant Interface:</b>
                         <p className="text-justify">
-                          Halaman memiliki desain yang menarik dengan latar
-                          belakang bertema musik.
+                          The page has an attractive design with a music-themed
+                          background.
                         </p>
                       </li>
                       <li className="my-2">
-                        <b>Navigasi Sederhana:</b>
+                        <b>Simple Navigation:</b>
                         <p className="text-justify">
-                          Terdapat menu navigasi untuk berpindah antara halaman
-                          seperti login/registrasi dan halaman tentang.
+                          There is a navigation menu to move between pages such
+                          as login/registration and the about page.
                         </p>
                       </li>
                       <li className="my-2">
-                        <b>Pemutar Musik: </b>
+                        <b>Music Player: </b>
                         <p className="text-justify">
-                          Pengguna dapat mendengarkan lagu dengan kontrol dasar
-                          seperti play dan pause.
+                          Users can listen to songs with basic controls such as
+                          play and pause.
                         </p>
                       </li>
                       <li className="my-2">
-                        <b>Daftar Lagu: </b>
+                        <b>Song List: </b>
                         <p className="text-justify">
-                          Lagu ditampilkan dalam daftar dengan detail seperti
-                          nama artis dan judul lagu.
+                          Songs are displayed in a list with details such as
+                          artist name and song title.
                         </p>
                       </li>
                       <li className="my-2">
-                        <b>Komentar atau Ulasan: </b>
+                        <b>Comment: </b>
                         <p className="text-justify">
-                          Terdapat fitur untuk menambahkan komentar atau
-                          interaksi pada lagu tertentu.
+                          There is a feature to add comments or interaction on a
+                          particular song.
                         </p>
                       </li>
                     </ul>
