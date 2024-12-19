@@ -43,7 +43,7 @@ export default function About() {
           rel="canonical"
           href="https://travislord.xyz/projects/clay-gatsby-theme"
         ></link>
-        <title>Bookshelf Apps Dicoding</title>
+        <title>Github Apps</title>
         <meta
           name="description"
           content="I am thrilled to share Clay Theme with the web development community! I have recently launched Clay Theme, a cutting-edge Gatsby Framework Template."
@@ -56,49 +56,63 @@ export default function About() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Bookshelf Apps"
+            text="Github User Apps"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
 
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="flex flex-col items-start justify-start col-span-4 xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-2xl font-bold capitalize text-dark/75 dark:text-light/75">
-                Bookshelf Apps Dicoding
+                Github Apps
               </h2>
               <h3 className="mb-4 text-lg font-bold text-lightGreen dark:text-primaryDark">
-                Front-End Web | Back-End
+                Mobile Development | Kotlin
               </h3>
               <div classNname="w-full border-2 border-solid border-light bg-light"></div>
-              <ul className="text-justify list-disc pl-8 text-base marker:text-xl marker:text-blue-500 marker:leading-[1.2]">
+              <ol className="text-justify list-decimal space-y-2 pl-8 text-base marker:text-blue-500 marker:leading-[1.2]">
                 <li>
-                  Browser Object Model (BOM) and Document Object Model (DOM) to
-                  manipulate the content or styling of web pages.
+                  This app will be displayed a list of Github users from Github
+                  REST API
                 </li>
                 <li>
-                  Play with events on HTML elements to provide an instruction.
-                  In addition, you can change the website content through DOM
-                  manipulation techniques when an event occurs.
+                  If an app user clicks on one of the Github users from the
+                  list, the details of the Github user that was clicked will be
+                  displayed
                 </li>
                 <li>
-                  Two types of storage that can retain your data in web
-                  application, namely localStorage and sessionStorage.
+                  User can search the username of any github user you want, and
+                  then data will be displayed in screen
                 </li>
                 <li>
-                  Finally, you have been able to create a website to manage
-                  To-Do list using DOM manipulation techniques, Event, and Web
-                  Storage manipulation techniques.
+                  If an app user clicks on any of the Github users from the list
+                  of username previously searched for, the details of the
+                  clicked Github users will be displayed
+                </li>
+              </ol>
+
+              <h4 className="mt-4 text-lg capitalize font-800 text-dark/75 dark:text-light/75">
+                Submission Checklist:
+              </h4>
+              <ul className="my-4 text-justify list-disc pl-8 space-y-2 text-base marker:text-xl marker:text-blue-500 marker:leading-[1.2]">
+                <li>Retain the features of Submission 1.</li>
+                <li>User search using data from the API runs well.</li>
+                <li>
+                  Using TabLayout, BottomNavigationView, or others as navigation
+                  between List Follower and List Following pages.
+                </li>
+                <li>
+                  There is a loading indicator when the app loads data on all
+                  pages.
                 </li>
               </ul>
-              <h4 className="mt-4 text-lg capitalize font-800 text-dark/75 dark:text-light/75">
-                Submission: Building a Bookshelf App
-              </h4>
-              <p className="my-4 text-justify">
+
+              {/* <p className="my-4 text-justify">
                 This submission will ask you to create an app with the theme of
                 a bookshelf app. This is called “Bookshelf App”. You need the
                 app as one of the requirements to graduate from this class. We
                 emphasize your creativity in build the app, but make sure it
                 meets the meet the criteria that we will explain.
-              </p>
+              </p> */}
 
               <div className="flex items-center grid-cols-8 gap-4 mt-2 sm:gap-8">
                 <Link
