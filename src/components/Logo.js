@@ -9,12 +9,12 @@ const Logo = () => {
     <div className="flex flex-col items-center justify-center mt-2">
       <MotionLink
         href="/"
-        className="flex items-center justify-center rounded-full w-16 h-18  bg-dark  text-white dark:border-1 dark:border-solid dark:border-dark"
+        className="flex items-center justify-center w-16 text-white rounded-full h-18 bg-dark dark:border-1 dark:border-solid dark:border-dark"
       >
         <img
-          src="/NexTemp-logo.png"
+          src="/BimaPrast-logo.png"
           alt="Logo"
-          className="w-full h-full object-contain rounded-full w-10 h-10 py-2 px-2"
+          className="object-contain w-10 w-full h-10 h-full px-2 py-2 rounded-full"
         />
       </MotionLink>
     </div>
