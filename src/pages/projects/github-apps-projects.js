@@ -97,8 +97,8 @@ export default function About() {
                 <li>Retain the features of Submission 1.</li>
                 <li>User search using data from the API runs well.</li>
                 <li>
-                  Using TabLayout, BottomNavigationView, or others as navigation
-                  between List Follower and List Following pages.
+                  Using Tab Layout, Bottom Navigation View, or others as
+                  navigation between List Follower and List Following pages.
                 </li>
                 <li>
                   There is a loading indicator when the app loads data on all
