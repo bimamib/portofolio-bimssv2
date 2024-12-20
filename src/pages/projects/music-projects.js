@@ -179,13 +179,13 @@ export default function About() {
                 <Link
                   className="p-2 px-6 text-lg font-semibold capitalize border-2 border-solid rounded-lg bg-dark sm:px-4 sm:text-base text-light hover:border-dark hover:bg-transparent hover:text-dark dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light md:p-2 md:px-4 md:text-base"
                   aria-label="Visit Theme Demo"
-                  href="https://book-shelf-apps.vercel.app/"
+                  href="https://music-gules-iota.vercel.app/"
                   target={"_blank"}
                 >
                   Visit Demo
                 </Link>
                 <Link
-                  href="https://github.com/bimamib/Book-Shelf_Apps"
+                  href="https://github.com/bimamib/Vue-Learn/tree/main/music"
                   target={"_blank"}
                   className="w-10"
                   aria-label="github link"
