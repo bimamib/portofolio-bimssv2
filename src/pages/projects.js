@@ -11,6 +11,7 @@ import proj1 from "../../public/images/projects/bookshelf-apps-project1.png";
 import proj2 from "../../public/images/projects/notes-apps-project2.png";
 import proj3 from "../../public/images/projects/music-apps-project3.png";
 import proj4 from "../../public/images/projects/github-user-project4.png";
+import proj5 from "../../public/images/projects/ngemeals-project5.png";
 import loading from "../../public/images/articles/GTA6-VICE.gif";
 
 import TransitionEffect from "@/components/TransitionEffect";
@@ -266,6 +267,17 @@ export default function Projects() {
                 date="2023"
                 link="/projects/github-apps-projects"
                 github="https://github.com/bimamib/Submission-Fundamental_Aplikasi-Android"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Web Development"
+                tools="VueJS | API | TailwindCSS"
+                title="Ngemeals"
+                img={proj5}
+                date="2023"
+                link="/projects/ngemeals-projects"
+                github="https://github.com/bimamib/ngemeals"
               />
             </div>
           </div>
