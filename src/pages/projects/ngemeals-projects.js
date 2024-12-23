@@ -142,7 +142,7 @@ export default function About() {
                 This project demonstrates capabilities in:
               </h4>
               <ul className="pl-6 mt-4 space-y-2 text-base font-normal text-justify list-disc marker:text-blue-500 marker:text-xl">
-                <li>Integrasi API eksternal.</li>
+                <li>External API integration</li>
                 <li>State management with VueJS.</li>
                 <li>
                   Development of an attractive user interface for data search
