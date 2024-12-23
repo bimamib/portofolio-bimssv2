@@ -99,25 +99,35 @@ export default function About() {
                     <li>
                       Detailed information includes:
                       <ul className="pl-6 mt-2 list-disc">
-                        <li className="text-justify">
-                          <strong>Category</strong>: Type of meal (e.g. dessert,
-                          seafood, etc.)
+                        <li>
+                          <strong>Category</strong>:{" "}
+                          <p className="text-justify">
+                            Type of meal (e.g. dessert, seafood, etc).
+                          </p>
                         </li>
-                        <li className="text-justify">
-                          <strong>Area</strong>: Regional origin of the meal.
+                        <li>
+                          <strong>Area</strong>:{" "}
+                          <p className="text-justify]">
+                            Regional origin of the meal.
+                          </p>
                         </li>
-                        <li className="text-justify">
-                          <strong>Tags</strong>: Food-relevant keywords.
+                        <li>
+                          <strong>Tags</strong>:{" "}
+                          <p className="text-justify">
+                            Food-relevant keywords.
+                          </p>
                         </li>
-                        <li className="text-justify">
-                          <strong>Ingredients and Measurements</strong>: List of
-                          ingredients required and their quantities.
+                        <li>
+                          <strong>Ingredients and Measurements</strong>:{" "}
+                          <p className="text-justify">
+                            List of ingredients required and their quantities.
+                          </p>
                         </li>
                       </ul>
                     </li>
                   </ul>
                 </li>
-                <li className="pl-2 text-justify">
+                <li className="pl-2">
                   <span>Integration with YouTube</span>
                   <ul className="pl-6 mt-4 space-y-2 text-base font-normal text-justify list-disc marker:text-xl">
                     <li>
@@ -133,10 +143,10 @@ export default function About() {
               </h4>
               <ul className="pl-6 mt-4 space-y-2 text-base font-normal text-justify list-disc marker:text-blue-500 marker:text-xl">
                 <li>Integrasi API eksternal.</li>
-                <li>Pengelolaan state dengan Vue.js.</li>
+                <li>State management with VueJS.</li>
                 <li>
-                  Pengembangan antarmuka pengguna yang menarik untuk kebutuhan
-                  pencarian dan eksplorasi data.
+                  Development of an attractive user interface for data search
+                  and exploration.
                 </li>
               </ul>
               {/* <p className="my-4 text-justify">
