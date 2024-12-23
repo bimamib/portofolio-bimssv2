@@ -70,26 +70,75 @@ export default function About() {
                 Front-End Web | Type Script | VueJS | TailwindCSS
               </h3>
               <div classNname="w-full border-2 border-solid border-light bg-light"></div>
-              <p className="text-justify">
-                I am thrilled to share some exciting news with the web
-                development community! I have recently launched a cutting-edge
-                Gatsby Framework Template called Clay, meticulously crafted to
-                seamlessly integrate with Netlify CMS, providing an effortless
-                and efficient solution for content management in the realm of
-                web development.
+              <p className="my-4">
+                This application connects with the API of TheMealDB to serve
+                food data.
               </p>
+              <ol className="pl-8 space-y-6 text-base font-semibold list-decimal marker:text-blue-500">
+                <li className="pl-2">
+                  <span>Meals Search</span>
+                  <ul className="pl-6 mt-4 space-y-2 text-base font-normal text-justify list-disc marker:text-xl">
+                    <li>Users can search meals by name.</li>
+                    <li>Search meals by letter.</li>
+                    <li>Search meals by ingredients.</li>
+                  </ul>
+                </li>
+                <li className="pl-2">
+                  <span>Search result display</span>
+                  <ul className="pl-6 mt-4 space-y-2 text-base font-normal list-disc marker:text-xl">
+                    <li className="text-justify">
+                      Display a list of meals that match the search criteria,
+                      including images and short descriptions.
+                    </li>
+                  </ul>
+                </li>
+                <li className="pl-2">
+                  <span>Meals Detail</span>
+                  <ul className="pl-6 mt-4 space-y-2 text-base font-normal list-disc marker:text-xl">
+                    <li>Users can view the details of the selected meal</li>
+                    <li>
+                      Detailed information includes:
+                      <ul className="pl-6 mt-2 list-disc">
+                        <li className="text-justify">
+                          <strong>Category</strong>: Type of meal (e.g. dessert,
+                          seafood, etc.)
+                        </li>
+                        <li className="text-justify">
+                          <strong>Area</strong>: Regional origin of the meal.
+                        </li>
+                        <li className="text-justify">
+                          <strong>Tags</strong>: Food-relevant keywords.
+                        </li>
+                        <li className="text-justify">
+                          <strong>Ingredients and Measurements</strong>: List of
+                          ingredients required and their quantities.
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li className="pl-2 text-justify">
+                  <span>Integration with YouTube</span>
+                  <ul className="pl-6 mt-4 space-y-2 text-base font-normal text-justify list-disc marker:text-xl">
+                    <li>
+                      Meal details come with video links from YouTube for
+                      cooking tutorials
+                    </li>
+                  </ul>
+                </li>
+              </ol>
+
               <h4 className="mt-4 text-lg capitalize font-800 text-dark/75 dark:text-light/75">
-                Unleashing the Power of Gatsby Framework
+                This project demonstrates capabilities in:
               </h4>
-              <p className="my-4 text-justify">
-                At the heart of Clay lies the robust Gatsby Framework. This
-                innovative framework empowers developers to leverage the latest
-                web technologies, including React, GraphQL, and Webpack. The
-                outcome is nothing short of exceptional—Clay delivers
-                lightning-fast, highly optimized websites, waving goodbye to the
-                era of slow load times and ushering in an age of unparalleled
-                performance.
-              </p>
+              <ul className="pl-6 mt-4 space-y-2 text-base font-normal text-justify list-disc marker:text-blue-500 marker:text-xl">
+                <li>Integrasi API eksternal.</li>
+                <li>Pengelolaan state dengan Vue.js.</li>
+                <li>
+                  Pengembangan antarmuka pengguna yang menarik untuk kebutuhan
+                  pencarian dan eksplorasi data.
+                </li>
+              </ul>
               {/* <p className="my-4 text-justify">
                 Submission ini akan meminta Anda membuat aplikasi dengan tema
                 aplikasi pencatatan buku. Ini kita namakan “Bookshelf App”.
