@@ -44,7 +44,7 @@ export default function About() {
           rel="canonical"
           href="https://travislord.xyz/projects/clay-gatsby-theme"
         ></link>
-        <title>Notes Apps</title>
+        <title>Ngemeals Apps</title>
         <meta
           name="description"
           content="I am thrilled to share Clay Theme with the web development community! I have recently launched Clay Theme, a cutting-edge Gatsby Framework Template."
