@@ -94,7 +94,17 @@ export default function Home() {
             </div>
           </div>
         </Layout>
-        <div className="fixed inline-block right-8 bottom-8 md:hidden"></div>
+        <div className="fixed inline-block right-8 bottom-8 md:hidden">
+          <iframe
+            className="rounded-xl iframe"
+            title="Indonesia Calendar"
+            width="280"
+            height="120"
+            src="https://seasonal-calendar.netlify.app/"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
         <HireMe />
       </article>
     </>
