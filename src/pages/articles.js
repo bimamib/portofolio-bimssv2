@@ -39,7 +39,7 @@ const MovingImg = ({ title, img, link }) => {
         onMouseMove={handleMouse}
         onMouseLeave={handleMouseLeave}
       >
-        <h2 className="capitalize text-xl font-semibold hover:underline dark:text-light md:text-lg xs:text-base sm:self-start">
+        <h2 className="text-xl font-semibold capitalize hover:underline dark:text-light md:text-lg xs:text-base sm:self-start">
           {title}
         </h2>
         <FramerImage
@@ -68,16 +68,10 @@ const Article = ({ img, title, date, link }) => {
       initial={{ y: 200 }}
       whileInView={{ y: 0, transition: { duration: 0.5, ease: "easeInOut" } }}
       viewport={{ once: true }}
-      className="relative w-full p-4 py-6 my-2 rounded-xl flex sm:flex-col justify-between 
-      bg-light text-dark first:mt-0 border border-solid border-dark
-      border-r-4 border-b-4 dark:bg-dark dark:border-light
-      "
+      className="relative flex justify-between w-full p-4 py-6 my-2 border border-b-4 border-r-4 border-solid rounded-xl sm:flex-col bg-light text-dark first:mt-0 border-dark dark:bg-dark dark:border-light "
     >
       <MovingImg img={img} title={title} link={link} />
-      <span
-        className="text-primary font-semibold dark:text-primaryDark min-w-max pl-4 sm:self-start 
-      sm:pl-0 xs:text-sm"
-      >
+      <span className="pl-4 font-semibold text-primary dark:text-primaryDark min-w-max sm:self-start sm:pl-0 xs:text-sm">
         {date}
       </span>
     </motion.li>
@@ -86,10 +80,7 @@ const Article = ({ img, title, date, link }) => {
 
 const FeaturedArticle = ({ img, title, time, summary, link }) => {
   return (
-    <li
-      className="relative w-full p-4 col-span-1 bg-light border border-dark border-solid rounded-2xl 
-    dark:bg-dark dark:border-light"
-    >
+    <li className="relative w-full col-span-1 p-4 border border-solid bg-light border-dark rounded-2xl dark:bg-dark dark:border-light">
       <div
         className="absolute  top-0 -right-3 w-[102%] h-[103%] rounded-[2rem]  rounded-br-3xl bg-dark 
         -z-10  "
@@ -102,12 +93,12 @@ const FeaturedArticle = ({ img, title, time, summary, link }) => {
       <Link
         href={link}
         target={"_blank"}
-        className="inline-block rounded-lg overflow-hidden w-full"
+        className="inline-block w-full overflow-hidden rounded-lg"
       >
         <FramerImage
           src={img}
           alt={title}
-          className="w-full max-h-80 object-cover"
+          className="object-cover w-full max-h-80"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.2 }}
           sizes="100vw"
@@ -116,12 +107,12 @@ const FeaturedArticle = ({ img, title, time, summary, link }) => {
       </Link>
 
       <Link href={link} target={"_blank"}>
-        <h2 className="capitalize text-2xl font-bold my-2 mt-4 hover:underline xs:text-lg">
+        <h2 className="my-2 mt-4 text-2xl font-bold capitalize hover:underline xs:text-lg">
           {title}
         </h2>
       </Link>
-      <p className="text-sm  mb-2">{summary}</p>
-      <span className="text-primary font-semibold dark:text-primaryDark">
+      <p className="mb-2 text-sm">{summary}</p>
+      <span className="font-semibold text-primary dark:text-primaryDark">
         {time}
       </span>
     </li>
@@ -165,11 +156,11 @@ export default function Articles() {
             />
           </ul>
 
-          <h2 className="font-bold text-4xl w-full text-center mt-32 my-16">
+          <h2 className="w-full my-16 mt-32 text-4xl font-bold text-center">
             All Articles
           </h2>
 
-          <ul className="flex flex-col items-center relative">
+          <ul className="relative flex flex-col items-center">
             <Article
               title="Adding more soon, thanks for the interest!"
               img={loading}
@@ -179,7 +170,7 @@ export default function Articles() {
             />
           </ul>
 
-          <div className="mt-2 flex items-center justify-between gap-3 grid-cols-2">
+          <div className="flex items-center justify-between grid-cols-2 gap-3 mt-2">
             <Link
               href="/about/"
               target={"_self"}
