@@ -63,7 +63,7 @@ const Experience = () => {
             time="Jan 2024 - Present"
             address="Jakarta, Indonesia (Freelance)"
             companyLink="https://github.com/Braincore-DTP"
-            work="At Stellar Innovations, I serve as a web developer, where I play a crucial role in designing and implementing cutting-edge web solutions. My responsibilities include developing responsive and high-performance websites and applications using technologies such as HTML, CSS, JavaScript, React, and Node.js. I collaborate closely with cross-functional teams to ensure our projects meet the highest standards of functionality and user experience. One of my key achievements at Stellar Innovations has been leading the development of a comprehensive e-commerce platform that significantly enhanced our client's online presence and sales. My work is driven by a passion for continuous learning and innovation, always striving to push the boundaries of what's possible in web development."
+            work="Braincore.id is an AI, Data Science, and Machine Learning consultancy and project provider, catering to both students and professionals. During my time as a freelancer at Braincore.id, I held the position of Business Process Automation, where I was responsible for developing internal tools to improve operational efficiency. Some of the projects I have worked on include MoM (Minutes of Meeting) Maker and LMS (Learning Management System). In addition, I also expanded my technical knowledge by learning various programming languages and frameworks such as HTMX, Alpine.js, and Vue.js."
           />
 
           <Details
@@ -81,7 +81,7 @@ const Experience = () => {
             time="Jan 2023 - Jun 2023"
             address="Jakarta, Indonesia (Remote)"
             companyLink="https://github.com/lilxyzz/holo-theme"
-            work="At Vault Technologies, I worked as a RAD (Rapid Application Development) Tester, where I was responsible for ensuring the quality and functionality of our software applications during the development process. My role involved designing and executing test plans, identifying and documenting bugs, and working closely with developers to resolve issues quickly. This position required a deep understanding of the software development lifecycle and a keen eye for detail to ensure our applications met the highest standards of performance and reliability. My contributions at Vault Technologies helped streamline our development processes and significantly improved the overall quality of our software products."
+            work="I completed Dicoding's Merdeka X Campus Programme, which aims to produce the best digital talents for Indonesian tech companies. I mastered Front-End Web Development. I also collaborate to work on projects. This application aims to provide information related to Fashion in the Local World in Indonesia. This application uses API integration for its information."
           />
         </ul>
       </div>
