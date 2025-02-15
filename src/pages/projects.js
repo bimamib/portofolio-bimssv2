@@ -12,6 +12,7 @@ import proj2 from "../../public/images/projects/notes-apps-project2.png";
 import proj3 from "../../public/images/projects/music-apps-project3.png";
 import proj4 from "../../public/images/projects/github-user-project4.png";
 import proj5 from "../../public/images/projects/ngemeals-project5.png";
+import proj6 from "../../public/images/projects/upload-images-project6.png";
 import loading from "../../public/images/articles/GTA6-VICE.gif";
 
 import TransitionEffect from "@/components/TransitionEffect";
@@ -278,6 +279,17 @@ export default function Projects() {
                 date="2023"
                 link="/projects/ngemeals-projects"
                 github="https://github.com/bimamib/ngemeals"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Web Development"
+                tools="Next.js | Prisma | TailwindCSS | PostgreSQL"
+                title="Upload Images"
+                img={proj6}
+                date="2024"
+                link="/projects/upload-images-projects"
+                github="https://github.com/bimamib/nextjs-upload"
               />
             </div>
           </div>
