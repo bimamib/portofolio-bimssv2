@@ -68,112 +68,66 @@ export default function About() {
               <h3 className="mb-4 text-lg font-bold text-lightGreen dark:text-primaryDark">
                 Front-End Web | Next.js | Tailwind | Prisma | PostgreSQL
               </h3>
-              <div classNname="w-full border-2 border-solid border-light bg-light"></div>
+              {/* <div classNname="w-full border-2 border-solid border-light bg-light"></div> */}
               <p className="text-justify">
-                This project is a music-themed web-based application, where
-                users can browse song collections, view song lists, as well as
-                listen to songs with the inbuilt audio player.
+                This project is a web-based application to upload, update, and
+                delete images. This application was built with the aim of being
+                a learning medium in web development using{" "}
+                <strong>Next.js.</strong>
               </p>
               <h4 className="mt-4 text-lg capitalize font-800 text-dark/75 dark:text-light/75">
-                About this Project Music Apps:
+                Technologies Used:
               </h4>
               <div className="my-4">
-                <ol className="list-decimal pl-8 text-base marker:text-blue-500 marker:leading-[1.2]">
+                <ul className="pl-5 space-y-2 text-justify list-disc marker:text-blue-500">
                   <li>
-                    Frameworks and Key Technologies:
-                    <ul className="pl-6 my-2 list-disc marker:text-blue-400">
-                      <li className="my-2">
-                        <b>Vue.js:</b>
-                        <p className="text-justify">
-                          Used as a frontend framework to build a dynamic and
-                          interactive user interface (UI).
-                        </p>
-                      </li>
-                      <li className="my-2">
-                        <b>Tailwind CSS:</b>
-                        <p className="text-justify">
-                          Used to create interface components that are
-                          responsive and modern, including navigation, layout,
-                          and styling of elements on the page.
-                        </p>
-                      </li>
-                    </ul>
+                    <strong>Next.js</strong> – React framework for building
+                    modern and high-performance web applications.
                   </li>
                   <li>
-                    Authentication:
-                    <ul className="pl-6 list-disc marker:text-blue-400">
-                      <li className="my-2">
-                        <b>Firebase Authentication:</b>
-                        <p className="text-justify">
-                          Used for user login and registration features. It
-                          allows users to access the app with their account
-                          securely.
-                        </p>
-                      </li>
-                    </ul>
+                    <strong>PostgreSQL</strong> – A relational database used to
+                    store image metadata.
                   </li>
                   <li>
-                    Database:
-                    <ul className="pl-6 list-disc marker:text-blue-400">
-                      <li className="my-2">
-                        <b>Firebase Database:</b>
-                        <p className="text-justify">
-                          Used to store song information, such as the name of
-                          the artist, song title, and other related metadata.
-                        </p>
-                      </li>
-                    </ul>
+                    <strong>Prisma Client</strong> – ORM (Object-Relational
+                    Mapping) which simplifies database management with simpler
+                    queries.
                   </li>
                   <li>
-                    Main Features:
-                    <ul className="pl-6 list-disc marker:text-blue-400">
-                      <li className="my-2">
-                        <b>Elegant Interface:</b>
-                        <p className="text-justify">
-                          The page has an attractive design with a music-themed
-                          background.
-                        </p>
-                      </li>
-                      <li className="my-2">
-                        <b>Simple Navigation:</b>
-                        <p className="text-justify">
-                          There is a navigation menu to move between pages such
-                          as login/registration and the about page.
-                        </p>
-                      </li>
-                      <li className="my-2">
-                        <b>Music Player: </b>
-                        <p className="text-justify">
-                          Users can listen to songs with basic controls such as
-                          play and pause.
-                        </p>
-                      </li>
-                      <li className="my-2">
-                        <b>Song List: </b>
-                        <p className="text-justify">
-                          Songs are displayed in a list with details such as
-                          artist name and song title.
-                        </p>
-                      </li>
-                      <li className="my-2">
-                        <b>Comment: </b>
-                        <p className="text-justify">
-                          There is a feature to add comments or interaction on a
-                          particular song.
-                        </p>
-                      </li>
-                    </ul>
+                    <strong>Tailwind CSS</strong> – A CSS framework used to
+                    design interfaces with a minimalist and responsive style.
                   </li>
-                </ol>
+                </ul>
+
+                <h4 className="mt-4 text-lg capitalize font-800 text-dark/75 dark:text-light/75">
+                  Main Features:
+                </h4>
+                <ul className="pl-5 mt-4 space-y-2 text-justify list-disc marker:text-blue-500">
+                  <li>
+                    <strong>Image Upload</strong> – Users can upload new images
+                    to the system.
+                  </li>
+                  <li>
+                    <strong>Image Update</strong> – Images that have been
+                    uploaded can be updated.
+                  </li>
+                  <li>
+                    <strong>Delete Image</strong> – Users can delete images that
+                    are not needed.
+                  </li>
+                  <li>
+                    <strong>Simple and Modern UI</strong> – The design uses
+                    Tailwind CSS which makes the display more responsive and
+                    attractive.
+                  </li>
+                </ul>
               </div>
 
-              {/* <p className="my-4 text-justify">
-                This submission will ask you to create an app with the theme of
-                a bookshelf app. This is called “Bookshelf App”. You need the
-                app as one of the requirements to graduate from this class. We
-                emphasize your creativity in build the app, but make sure it
-                meets the meet the criteria that we will explain.
-              </p> */}
+              <p className="my-4 text-justify">
+                This project aims to understand the implementation of Next.js
+                with PostgreSQL-based backend using Prisma Client and how to
+                manage image data dynamically with a user-friendly UI.
+              </p>
 
               <div className="flex items-center grid-cols-8 gap-4 mt-2 sm:gap-8">
                 <Link
