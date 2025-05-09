@@ -7,7 +7,7 @@ import Link from "next/link";
 import { useRef } from "react";
 import { HireMe2 } from "@/components/HireMe2";
 
-import proj1 from "../../public/images/projects/bookshelf-apps-project1.png";
+import proj1 from "../../public/images/projects/bookshelf-apps-projects1.png";
 import proj2 from "../../public/images/projects/notes-apps-project2.png";
 import proj3 from "../../public/images/projects/music-apps-project3.png";
 import proj4 from "../../public/images/projects/github-user-project4.png";
@@ -74,10 +74,10 @@ const Article = ({ img, title, date, link }) => {
       initial={{ y: 200 }}
       whileInView={{ y: 0, transition: { duration: 0.5, ease: "easeInOut" } }}
       viewport={{ once: true }}
-      className="relative flex justify-between w-full p-4 py-6 my-2 border border-b-4 border-r-4 border-solid rounded-xl sm:flex-col bg-light text-dark first:mt-0 border-dark dark:bg-dark dark:border-light "
+      className="flex relative justify-between p-4 py-6 my-2 w-full rounded-xl border border-r-4 border-b-4 border-solid sm:flex-col bg-light text-dark first:mt-0 border-dark dark:bg-dark dark:border-light"
     >
       <MovingImg img={img} title={title} link={link} />
-      <span className="pl-4 font-semibold text-primary dark:text-primaryDark min-w-max sm:self-start sm:pl-0 xs:text-sm">
+      <span className="pl-4 min-w-max font-semibold text-primary dark:text-primaryDark sm:self-start sm:pl-0 xs:text-sm">
         {date}
       </span>
     </motion.li>
@@ -94,7 +94,7 @@ const FeaturedProject = ({
   tools,
 }) => {
   return (
-    <article className="relative flex items-center justify-between w-full p-12 border border-solid shadow-2xl rounded-3xl rounded-br-2xl border-dark bg-light dark:border-light dark:bg-dark lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4 ">
+    <article className="flex relative justify-between items-center p-12 w-full rounded-3xl rounded-br-2xl border border-solid shadow-2xl border-dark bg-light dark:border-light dark:bg-dark lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4">
       <div
         className="absolute  top-0 -right-3 -z-10 h-[103%] w-[101%] rounded-[2.5rem] rounded-br-3xl bg-dark
          dark:bg-light  xs:-right-2 xs:h-[102%] xs:w-[100%]
@@ -103,7 +103,7 @@ const FeaturedProject = ({
 
       <Link
         href={link}
-        className="w-1/2 overflow-hidden rounded-lg cursor-pointer lg:w-full"
+        className="overflow-hidden w-1/2 rounded-lg cursor-pointer lg:w-full"
       >
         <FramerImage
           src={img}
@@ -117,7 +117,7 @@ const FeaturedProject = ({
           priority
         />
       </Link>
-      <div className="flex flex-col items-start justify-between w-1/2 pl-6 lg:w-full lg:pl-0 lg:pt-6">
+      <div className="flex flex-col justify-between items-start pl-6 w-1/2 lg:w-full lg:pl-0 lg:pt-6">
         <span className="text-xl font-medium text-primary dark:text-light xs:text-base">
           {type}
         </span>
@@ -125,7 +125,7 @@ const FeaturedProject = ({
           {tools}
         </span>
         <Link href={link} className="underline-offset-2 hover:underline">
-          <h2 className="w-full my-2 text-4xl font-bold text-left lg:text-3xl xs:text-2xl">
+          <h2 className="my-2 w-full text-4xl font-bold text-left lg:text-3xl xs:text-2xl">
             {title}
           </h2>
         </Link>
@@ -143,7 +143,7 @@ const FeaturedProject = ({
           </Link>
           <Link
             href={link}
-            className="p-2 px-6 ml-4 text-lg font-semibold capitalize border-2 border-solid rounded-lg bg-dark sm:px-4 sm:text-base text-light hover:border-dark hover:bg-transparent hover:text-dark dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light md:p-2 md:px-4 md:text-base"
+            className="p-2 px-6 ml-4 text-lg font-semibold capitalize rounded-lg border-2 border-solid bg-dark sm:px-4 sm:text-base text-light hover:border-dark hover:bg-transparent hover:text-dark dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light md:p-2 md:px-4 md:text-base"
             aria-label="Project link"
           >
             View Project
@@ -156,7 +156,7 @@ const FeaturedProject = ({
 
 const Project = ({ title, type, img, link, tools }) => {
   return (
-    <article className="relative flex flex-col items-center justify-center w-full p-6 border border-solid shadow-2xl rounded-2xl rounded-br-2xl border-dark bg-light dark:border-light dark:bg-dark xs:p-4 ">
+    <article className="flex relative flex-col justify-center items-center p-6 w-full rounded-2xl rounded-br-2xl border border-solid shadow-2xl border-dark bg-light dark:border-light dark:bg-dark xs:p-4">
       <div
         className="absolute  top-0 -right-3 -z-10 h-[103%] w-[102%] rounded-[2rem] rounded-br-3xl bg-dark
          dark:bg-light  md:-right-2 md:w-[101%] xs:h-[102%]
@@ -165,7 +165,7 @@ const Project = ({ title, type, img, link, tools }) => {
 
       <Link
         href={link}
-        className="w-full overflow-hidden rounded-lg cursor-pointer"
+        className="overflow-hidden w-full rounded-lg cursor-pointer"
       >
         <FramerImage
           src={img}
@@ -178,7 +178,7 @@ const Project = ({ title, type, img, link, tools }) => {
               33vw"
         />
       </Link>
-      <div className="flex flex-col items-start justify-between w-full mt-4">
+      <div className="flex flex-col justify-between items-start mt-4 w-full">
         <span className="text-xl font-medium text-primary dark:text-light lg:text-lg md:text-base">
           {type}
         </span>
@@ -187,14 +187,14 @@ const Project = ({ title, type, img, link, tools }) => {
         </span>
 
         <Link href={link} className="underline-offset-2 hover:underline">
-          <h2 className="w-full my-2 text-3xl font-bold text-left lg:text-2xl ">
+          <h2 className="my-2 w-full text-3xl font-bold text-left lg:text-2xl">
             {title}
           </h2>
         </Link>
-        <div className="flex items-center justify-between w-full">
+        <div className="flex justify-between items-center w-full">
           <Link
             href={link}
-            className="px-6 py-2 mt-2 text-lg font-semibold capitalize border-2 border-solid rounded-lg bg-dark sm:px-4 sm:text-base text-light hover:border-dark hover:bg-transparent hover:text-dark dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light md:p-2 md:px-4 md:text-base "
+            className="px-6 py-2 mt-2 text-lg font-semibold capitalize rounded-lg border-2 border-solid bg-dark sm:px-4 sm:text-base text-light hover:border-dark hover:bg-transparent hover:text-dark dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light md:p-2 md:px-4 md:text-base"
             aria-label={title}
           >
             View Project
@@ -218,7 +218,7 @@ export default function Projects() {
 
       <TransitionEffect />
       <main
-        className={`mb-16  flex w-full flex-col items-center justify-center dark:text-light`}
+        className={`flex flex-col justify-center items-center mb-16 w-full dark:text-light`}
       >
         <Layout className="pt-16">
           <AnimatedText
@@ -295,7 +295,7 @@ export default function Projects() {
           </div>
 
           <div>
-            <ul className="relative flex flex-col items-center pt-16">
+            <ul className="flex relative flex-col items-center pt-16">
               <Article
                 title="Adding more soon, thanks for the interest!"
                 img={loading}
@@ -305,7 +305,7 @@ export default function Projects() {
               />
             </ul>
 
-            <div className="flex items-center justify-between grid-cols-2 gap-3 mt-2">
+            <div className="flex grid-cols-2 gap-3 justify-between items-center mt-2">
               <Link
                 href="/articles/"
                 target={"_self"}
