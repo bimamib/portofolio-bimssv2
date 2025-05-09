@@ -9,7 +9,7 @@ import TransitionEffect from "@/components/TransitionEffect";
 import { GithubIcon } from "@/components/Icons";
 import { DevIcon } from "@/components/Icons";
 
-import proj1 from "/public/images/projects/bookshelf-apps-project1.png";
+import proj1 from "/public/images/projects/bookshelf-apps-projects1.png";
 
 function AnimatedNumberFramerMotion({ value }) {
   const ref = useRef(null);
@@ -52,7 +52,7 @@ export default function About() {
 
       <TransitionEffect />
       <main
-        className={`flex  w-full flex-col items-center justify-center dark:text-light`}
+        className={`flex flex-col justify-center items-center w-full dark:text-light`}
       >
         <Layout className="pt-16">
           <AnimatedText
@@ -60,8 +60,8 @@ export default function About() {
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
 
-          <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
-            <div className="flex flex-col items-start justify-start col-span-4 xl:col-span-4 md:order-2 md:col-span-8">
+          <div className="grid grid-cols-8 gap-16 w-full sm:gap-8">
+            <div className="flex flex-col col-span-4 justify-start items-start xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-2xl font-bold capitalize text-dark/75 dark:text-light/75">
                 Bookshelf Apps Dicoding
               </h2>
@@ -100,9 +100,9 @@ export default function About() {
                 meets the meet the criteria that we will explain.
               </p>
 
-              <div className="flex items-center grid-cols-8 gap-4 mt-2 sm:gap-8">
+              <div className="flex grid-cols-8 gap-4 items-center mt-2 sm:gap-8">
                 <Link
-                  className="p-2 px-6 text-lg font-semibold capitalize border-2 border-solid rounded-lg bg-dark sm:px-4 sm:text-base text-light hover:border-dark hover:bg-transparent hover:text-dark dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light md:p-2 md:px-4 md:text-base"
+                  className="p-2 px-6 text-lg font-semibold capitalize rounded-lg border-2 border-solid bg-dark sm:px-4 sm:text-base text-light hover:border-dark hover:bg-transparent hover:text-dark dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light md:p-2 md:px-4 md:text-base"
                   aria-label="Visit Theme Demo"
                   href="https://book-shelf-apps.vercel.app/"
                   target={"_blank"}
@@ -127,7 +127,7 @@ export default function About() {
                 </Link> */}
               </div>
             </div>
-            <div className="relative col-span-4 p-8 border-2 border-solid h-max rounded-2xl border-dark bg-light dark:border-light dark:bg-dark xl:col-span-4 md:col-span-8 md:order-1 ">
+            <div className="relative col-span-4 p-8 rounded-2xl border-2 border-solid h-max border-dark bg-light dark:border-light dark:bg-dark xl:col-span-4 md:col-span-8 md:order-1">
               <div
                 className="absolute  top-0 -right-3 -z-10 h-[103%] w-[102%]  rounded-[2rem] rounded-br-3xl 
                 bg-dark
