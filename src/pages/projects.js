@@ -13,6 +13,7 @@ import proj3 from "../../public/images/projects/music-apps-project3.png";
 import proj4 from "../../public/images/projects/github-user-project4.png";
 import proj5 from "../../public/images/projects/ngemeals-project5.png";
 import proj6 from "../../public/images/projects/upload-images-project6.png";
+import proj7 from "../../public/images/projects/ig-unfollowers-tracker-project7.png";
 import loading from "../../public/images/articles/GTA6-VICE.gif";
 
 import TransitionEffect from "@/components/TransitionEffect";
@@ -289,6 +290,17 @@ export default function Projects() {
                 img={proj6}
                 date="2024"
                 link="/projects/upload-images-projects"
+                github="https://github.com/bimamib/nextjs-upload"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Web Development"
+                tools="Next.js | Shadcn UI | JSON"
+                title="Instagram Unfollow Trackers"
+                img={proj7}
+                date="2025"
+                link="/projects/ig-unfollowers-tracker-projects"
                 github="https://github.com/bimamib/nextjs-upload"
               />
             </div>
