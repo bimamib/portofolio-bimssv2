@@ -66,7 +66,7 @@ export default function About() {
                 Instagram Unfollowers Trackers
               </h2>
               <h3 className="mb-4 text-lg font-bold text-lightGreen dark:text-primaryDark">
-                Front-End Web | Instagram
+                Front-End Web | Instagram | Trackers
               </h3>
               <div classNname="w-full border-2 border-solid border-light bg-light"></div>
               <p className="text-justify">
@@ -88,13 +88,13 @@ export default function About() {
                       <li className="my-2">
                         <b>Followers JSON:</b>
                         <p className="text-justify">
-                          contains a list of accounts that follow the user.
+                          Contains a list of accounts that follow the user.
                         </p>
                       </li>
                       <li className="my-2">
                         <b>Followings JSON:</b>
                         <p className="text-justify">
-                          berisi daftar akun yang diikuti oleh pengguna.
+                          Contains a list of accounts followed by the user.
                         </p>
                       </li>
                     </ul>
