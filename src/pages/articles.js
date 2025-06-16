@@ -135,10 +135,23 @@ export default function Articles() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Words Influence the World 🌎"
+            text="Soon! 🚀"
             className="!text-8xl !leading-tight mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
-          <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
+
+          <div className="flex flex-col items-center text-center">
+            <h1 className="max-w-lg mt-4 font-medium md:text-lg">
+              Thanks For Stopping By, But My Brain Is Currently On A Snack
+              Break. Stay Tuned For The Awesomeness!
+            </h1>
+            <a
+              class="self-center !mt-4 inline-block rounded-lg border-2 border-solid bg-dark px-4 py-2   font-semibold text-light hover:border-dark hover:bg-light hover:text-dark    dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light   "
+              href="/"
+            >
+              Go To Home
+            </a>
+          </div>
+          {/* <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
             <FeaturedArticle
               img={blog1}
               title="Unlocking the Power of Gatsby & Netlify"
@@ -154,7 +167,14 @@ export default function Articles() {
               summary="As we step into another year of exciting journeys, I figured it was the perfect moment to unveil the newest adjustments and tools I'm using in my MacBook setup."
               link="https://travislord.xyz/articles/top-macbook-setup-tips-for-2024"
             />
-          </ul>
+          </ul> */}
+
+          {/* <a
+            class="self-center !mt-4 inline-block rounded-lg border-2 border-solid bg-dark px-4 py-2   font-semibold text-light hover:border-dark hover:bg-light hover:text-dark    dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light   "
+            href="/"
+          >
+            Go To Home
+          </a> */}
 
           <h2 className="w-full my-16 mt-32 text-4xl font-bold text-center">
             All Articles
