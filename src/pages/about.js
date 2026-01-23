@@ -28,7 +28,7 @@ function AnimatedNumberFramerMotion({ value }) {
           ref.current.textContent = latest.toFixed(0);
         }
       }),
-    [springValue, value]
+    [springValue, value],
   );
 
   return <span ref={ref} />;
