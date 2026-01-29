@@ -120,7 +120,7 @@ export default function About() {
                 className="w-full h-auto border-2 border-solid rounded-2xl border-dark"
                 priority={true}
                 src={profile}
-                alt="Travis Lord"
+                alt="Bimss"
                 sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               33vw"
