@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import profile from "../../public/images/profile/Bimsssss.png";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import AnimatedText from "@/components/AnimatedText";
@@ -35,6 +35,22 @@ function AnimatedNumberFramerMotion({ value }) {
 }
 
 export default function About() {
+  // Days of coding fetched from GitHub API
+  const [daysCoding, setDaysCoding] = useState(350); // fallback tetap 350 biar aman
+
+  useEffect(() => {
+    const run = async () => {
+      try {
+        const res = await fetch("/api/github-days?days=365");
+        const json = await res.json();
+        if (typeof json.daysWithContributions === "number") {
+          setDaysCoding(json.daysWithContributions);
+        }
+      } catch {}
+    };
+    run();
+  }, []);
+
   return (
     <>
       <Head>
@@ -113,7 +129,7 @@ export default function About() {
             <div className="flex flex-col items-end justify-between col-span-2 xl:col-span-8 xl:flex-row xl:items-center md:order-3">
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block font-bold text-7xl md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={350} />+
+                  <AnimatedNumberFramerMotion value={daysCoding} />+
                 </span>
                 <h3 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Days of Coding
