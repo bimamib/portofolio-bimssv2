@@ -36,18 +36,18 @@ function AnimatedNumberFramerMotion({ value }) {
 
 export default function About() {
   // Days of coding fetched from GitHub API
-  const [daysCoding, setDaysCoding] = useState(350); // fallback tetap 350 biar aman
+  const [daysCoding, setDaysCoding] = useState(350);
 
   useEffect(() => {
     const run = async () => {
-      try {
-        const res = await fetch("/api/github-days?days=365");
-        const json = await res.json();
-        if (typeof json.daysWithContributions === "number") {
-          setDaysCoding(json.daysWithContributions);
-        }
-      } catch {}
+      const res = await fetch("/api/github-days?start=firstContribution");
+      const json = await res.json();
+
+      if (res.ok && typeof json.daysWithContributions === "number") {
+        setDaysCoding(json.daysWithContributions);
+      }
     };
+
     run();
   }, []);
 
